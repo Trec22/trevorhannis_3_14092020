@@ -1,0 +1,10 @@
+@mixin bg($color, $color1) {
+    background-color: $color;
+    color: $color1;
+}
+
+.site{
+    height: 100vh;
+    width: 100vw;
+    @include bg(#F2F2F2, teal);
+}
