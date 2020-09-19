@@ -12,13 +12,13 @@
     display: block;
   }
 
-  h1 {
+  .h1 {
     align-content: center;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
     font-size: 2.5rem;
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
-    color: black;
+    background-color: red;
   }
 }
 .site {
