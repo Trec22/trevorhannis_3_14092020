@@ -1,23 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-@media screen and (max-width: 300px) {
-  .resume {
-    width: auto;
-    height: 100%;
-    word-wrap: break-word;
-  }
+/* Error: expected "{".
+ *    ,
+ * 33 | git@github.com:Trec22/trevorhannis_3_14092020.git
+ *    |                                                  ^
+ *    '
+ *   main.scss 33:50  root stylesheet */
 
-  .img {
-    width: 45px;
-    height: 45px;
-    overflow: hidden;
-    border-radius: 50%;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 33 \2502  git@github.com:Trec22/trevorhannis_3_14092020.git\a    \2502                                                   ^\a    \2575 \a   main.scss 33:50  root stylesheet';
 }
-.site {
-  height: 100vh;
-  width: 100vw;
-  background-color: #F2F2F2;
-  color: teal;
-}
-
-/*# sourceMappingURL=main.css.map */
