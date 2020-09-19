@@ -6,11 +6,10 @@
     word-wrap: break-word;
   }
 
-  .img {
-    width: 45px;
-    height: 45px;
-    overflow: hidden;
-    border-radius: 50%;
+  .image {
+    width: 150px;
+    height: 150px;
+    display: block;
   }
 }
 .site {
