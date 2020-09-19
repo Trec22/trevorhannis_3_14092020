@@ -6,7 +6,7 @@
     word-wrap: break-word;
   }
 
-  img {
+  .img {
     width: 45px;
     height: 45px;
     overflow: hidden;
