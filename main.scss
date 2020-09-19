@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@media screen and (max-width: 300px){
+
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+    }
+     img{
+        width:45px;
+        height:45px;
+        overflow: hidden;
+        border-radius:50%;
+    } 
+
+}
+
+
 @mixin bg($color, $color1) {
     background-color: $color;
     color: $color1;
