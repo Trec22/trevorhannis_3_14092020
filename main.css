@@ -7,9 +7,18 @@
   }
 
   .image {
-    width: 30% p;
+    width: 30%;
     height: 30%;
     display: block;
+  }
+
+  h1 {
+    align-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
+    color: black;
   }
 }
 .site {
