@@ -7,7 +7,7 @@
   }
 
   .photo {
-    widows: 100px;
+    width: 200px;
     display: block;
   }
 
@@ -28,6 +28,14 @@
 .photo {
   width: 200px;
   display: block;
+}
+
+.h3 {
+  position: absolute;
+}
+
+.li {
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */
