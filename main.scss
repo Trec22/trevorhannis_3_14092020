@@ -6,19 +6,23 @@
         width: 300px;
         height: auto;
         word-wrap: break-word;
+
+    }
+     
+    .img{
+
+
     }
 
-    .image{
-        width:30%;
-        height: 30%;
+
+    .photo{
+        widows: 100px;;
         display: block;
         
     }
 
     .h1{
         align-content: center;
-        margin-top:1.5rem;
-        margin-bottom: 2.5rem;
         font-size: 2.5rem;
         font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
         background-color:red;
@@ -40,3 +44,11 @@
     width: 100vw;
     @include bg(#F2F2F2, teal);
 }
+
+.photo{
+    width:200px;
+
+    display: block;
+    
+}
+
