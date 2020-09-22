@@ -10,8 +10,8 @@
     }
 
 
-    .photo{
-        width: 200px;
+    img{
+        width: 300px;
         display: block;
         
     }
@@ -40,8 +40,8 @@
     @include bg(#F2F2F2, teal);
 }
 
-.photo{
-    width:200px;
+img{
+    width:300px;
 
     display: block;
     

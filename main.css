@@ -6,8 +6,8 @@
     word-wrap: break-word;
   }
 
-  .photo {
-    width: 200px;
+  img {
+    width: 300px;
     display: block;
   }
 
@@ -25,8 +25,8 @@
   color: teal;
 }
 
-.photo {
-  width: 200px;
+img {
+  width: 300px;
   display: block;
 }
 
