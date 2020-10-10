@@ -1,5 +1,17 @@
+.buttons i{
+   background:palevioletred;
+   &:hover{
+       background: red;
+   }
+
+
+}
+
 button{
-    background:palevioletred;
+    background:$primary;
+    &:hover{
+        background-color:rgb(255, 0, 128);
+    }
     a{
         text-decoration: white;
     }
