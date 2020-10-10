@@ -4,3 +4,9 @@ background: cyan;
 background: cornsilk;
 width: 100%;
 }
+
+.contact{
+@extend footer;
+background: rgb(22, 21, 21);
+width:100%;
+}
