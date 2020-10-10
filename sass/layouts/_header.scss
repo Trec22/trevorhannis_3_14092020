@@ -1,0 +1,10 @@
+header{
+    background: cornsilk;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background: $primaryBtn:rgb(182,85,153);
+    }
+}
