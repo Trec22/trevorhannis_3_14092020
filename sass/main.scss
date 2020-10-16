@@ -1,18 +1,34 @@
 //@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 
-@import "vendors/reset";
-@import "base/base";
-@import "pages/commun";
-@import "pages/home";
-@import "utils/variables";
+// 1. Tools & helps
+
 @import "utils/mixins";
+@import "utils/variables";
+@import "utils/extentions";
+
+// 2 Vendors
+
+@import "vendors/reset";
+
+// 3. Base
+
+@import "base/base";
+
+// 4. Layouts
+
 @import "layouts/header";
 @import "layouts/footer";
-@import "utils/extentions";
+
+// 5. Components
+
 @import "components/buttons";
 @import "components/restaurant_card";
 
+// 6. Pages
+
+@import "pages/commun";
+@import "pages/home";
 
 
 // @import "./utils/variables";
