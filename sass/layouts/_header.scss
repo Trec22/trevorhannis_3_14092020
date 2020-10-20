@@ -2,11 +2,15 @@ header{
     background: cornsilk;
     color: blue;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     button{
+        color:#ff0080;
         background:rgb(182,85,153);
+    }
+    h1 {
+        font-size:5rem;
+        font-family: 'Molle', cursive;
+        
     }
 
 }

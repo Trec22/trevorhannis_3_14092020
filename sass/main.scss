@@ -2,10 +2,11 @@
 
 
 // 1. Tools & helps
-
+@import "utils/functions";
 @import "utils/mixins";
 @import "utils/variables";
 @import "utils/extentions";
+
 
 // 2 Vendors
 
@@ -14,6 +15,7 @@
 // 3. Base
 
 @import "base/base";
+@import "base/typography";
 
 // 4. Layouts
 
@@ -24,6 +26,9 @@
 
 @import "components/buttons";
 @import "components/restaurant_card";
+@import "components/icon.scss";
+@import "components/loader";
+
 
 // 6. Pages
 
