@@ -2,7 +2,12 @@
 body{
     color: red;
 }
-main{
-    display: grid;
+
+main {
     
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows: 2fr;
+    column-gap: 2rem;
+    grid-row: auto;
 }
