@@ -1,4 +1,38 @@
+// Section. info.
 
+.info{
+    background: cornsilk;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    h2 .p .a{
+        color:black;
+
+    }
+
+
+}
+
+
+
+// Section. fonctionnement.
+
+.fonctionnement h2{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+    
+    li{
+        color: black;
+    }
+
+}
+
+
+
+// Section. photo.
 .photo{
     background-size: cover;
     width:500px;
