@@ -1,10 +1,24 @@
-// Section. info.
+/*section info*/
 
 .info{
-    background: cornsilk;
+
+    background: rgba(240, 238, 243, 0.87);
+    margin-top: 2.5rem;
     height: 30vh;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
+    h2{
+        background-color: rgb(247, 238, 238);
+    }
+    h3{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        
+    }
+
     h2 .p .a{
         color:black;
 
@@ -15,24 +29,30 @@
 
 
 
-// Section. fonctionnement.
+/*section fonctionnement*/
 
 .fonctionnement h2{
     height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: chartreuse;
+    color: black;
     
     li{
-        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration-color: black;
+
     }
+
 
 }
 
 
 
-// Section. photo.
+/*section photo*/
+
 .photo{
     background-size: cover;
     width:500px;
