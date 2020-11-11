@@ -1,28 +1,46 @@
 footer{
-    background:black;
+    background:#535353;
     color: white;
-    height: 40vh;
-    margin-bottom:2rem;
+    padding: 1.2rem;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    button{
-        background:rgb(182,85,153);
-    }
+
 
     h5{
-        font-size:4rem;
-        margin-top: 2.5rem;
+        font-size:1.5rem;
         margin-bottom: 2.5rem;
         color: white;
         font-family: 'Shrikhand', cursive;
     }
-    nav li i{
-        margin-right:1.5rem;
-        font-size: 2rem;
-        color: white;
-    }
 
-    
+}   
+
+.footer .footer_list{
+    margin-top: 16px;
+    font-size: 1rem;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-self: center;
+    align-self: flex-start;
+
 }
+ol, ul{
+    list-style: none;
+
+}
+    
+
+        
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+    
