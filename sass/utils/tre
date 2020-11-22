@@ -28,6 +28,16 @@ media
     grid-row: auto;
 
 }
+exemple pour button
+
+.btn{
+    background: red;
+    color: ivory;
+    &--alt{
+        background: yellow;
+    }
+}
+
 
 
 

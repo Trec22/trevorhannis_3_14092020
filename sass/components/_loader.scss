@@ -1,0 +1,109 @@
+corps {
+	marge : 0 ;
+	rembourrage : 0 ;
+	affichage : flex;
+	justify-content: centre;
+	align-items: centre;
+	couleur de fond : # 99E2D0 ;
+	hauteur: 100 vh ;
+	famille de polices: sans-serif;
+}
+
+/ * CSS du loader * /
+. loader__container {
+    position : absolue;
+    haut : 0 ;
+    gauche : 0 ;
+    hauteur : 100 vh ;
+    largeur : 100 vw ;
+    affichage : flex;
+    justify-content : centre;
+    align-items : centre;
+    background-color: 99E2D0;
+    z - indice: 9999;
+    animation: desapear 1s linéaire en  avant ;
+    retard d'animation : 3 s;
+}
+
+@keyframes desapear {
+    100 % {
+        opacité : 0 ;
+        visibilité : cachée;
+    }
+}
+
+. chargeur {
+  largeur : 8 rem ;
+  hauteur : 8 rem ;
+  text-align : centre;
+  hauteur de ligne : 8 rem ;
+  bordure : 8 px solide # fdcff0 ;
+  rayon de la frontière : 50 % ;
+  couleur : # FF79DA ;
+  position : relative;
+  boîte-ombre : 0  0  20 px  8 px gris;
+}
+
+. chargeur . image {
+  hauteur : 80 px ;
+  largeur : 80 px ;
+  couleur de fond : # 99E2D0 ;
+  taille de la police : 4 em ;
+  position : absolue;
+  haut : 20 px ;
+  gauche : 20 px ;
+  indice z : 100 ;
+  animation : écraser 3 s en avant linéaire;
+}
+. span du chargeur  {
+  taille de la police : 4 em ;
+  hauteur de ligne : 8 rem ;
+  couleur : # FF79DA ;
+  affichage : bloc en ligne;
+  largeur : 100 % ;
+  hauteur : 100 % ;
+  position : absolue;
+  haut : 50 % ;
+  gauche : 50 % ;
+  transformer : traduire ( -50 % ,  -50 % );
+}
+
+@keyframes ecrase {
+  à {
+    hauteur : 0 ;
+  }
+}
+
+. loader :: before {
+  contenu : "" ;
+  position : absolue;
+  haut : -8px;
+  gauche : -8px;
+  largeur : 8 rem ;
+  hauteur : 8 rem ;
+  background-color : transparent;
+  bordure : 8 px solide rgba ( 128 ,  128 ,  128 ,  0,548 );
+  rayon de la frontière : 50 % ;
+  border-top-color : transparent;
+  animation : rotation inverse infinie linéaire de 5 s ;
+}
+
+. loader :: après {
+  contenu : "" ;
+  position : absolue;
+  haut : -8px;
+  gauche : -8px;
+  largeur : 8 rem ;
+  hauteur : 8 rem ;
+  bordure : 8 px solide transparente;
+  couleur de fond : transparent;
+  rayon de la frontière : 50 % ;
+  border-top-color : # FF79DA ;
+  animation : rotation infinie linéaire de 1 s ;
+}
+
+@keyframes rotate {
+  100 % {
+    transformation : rotation ( 360 degrés );
+  }
+} 
