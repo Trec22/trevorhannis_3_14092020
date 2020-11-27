@@ -1,0 +1,197 @@
+@media screen and (min-width: 300px){
+    body{
+        width: auto;
+        height: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        word-wrap: break-word;
+        
+    }
+        
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+    
+    body{
+        background: white;
+        font-size: 14px;
+        line-height: 22px;
+        color: #585c68;  
+    }
+
+    h1{
+        display: block;
+        font-size:3.5rem;
+        font-family: 'Shrikhand', cursive;
+        text-align: center;
+                
+    }
+
+                
+                
+    h2{
+        width: 96%;
+        padding:16px;
+        height: 12vh;
+        margin-block-start: .73em;
+        text-align: center;
+        margin-top:.8rem;
+        
+        background-color: rgb(201, 195, 195);           
+        
+
+    }
+
+    h2 i{
+        background-color: rgb(145, 141, 141);
+        
+
+    }    
+
+    a:hover{
+        color:red;
+        text-decoration: none;
+                    
+                    
+
+    }
+    a{
+        margin-right: 1.5rem;
+    }
+
+        
+
+
+    .button {
+        background-color: rgb(214, 13, 214);
+        
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2rem;
+
+    }
+    
+
+    .info{
+        background-color:#f0efef;
+        width: 95%;
+        padding: 16px;
+        display: flex;
+        height: 40vh;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h3{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        font-size: 2em;
+        font-style: bold;
+    }
+
+    p{
+        margin-left: 1.5rem;
+        font-size: 2em;
+
+    }
+    
+
+    
+    section .fonctionnement-list{
+        display: flex;
+        display:inline-block;
+        list-style: none;
+        height: 25vh;
+    }
+    a.button.Fonctionnement {
+        background-color: rgb(145, 141, 141);
+        width:96%;
+        border: none;
+        color: black;
+        padding: 10px;
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2rem;
+        justify-content:space-around;
+        line-height: 1.5;
+    }
+
+    
+        
+            
+        
+    
+    
+    .photo{
+        margin-top:4rem;
+        background-size: cover;
+        width:500px;
+        height:500px;
+        border:1px solid yellow;
+        
+        background-position: center;
+    }
+    .photo1{
+        background-image: url("../images z/restaurants zozor/image1.jpg");
+        
+    }
+    
+    .photo2{
+        background-image: url("../images/restaurants zozor/image2.jpg");
+    }
+    
+    .photo3{
+        background-image: url("../images/restaurants zozor/image3.jpg");
+    }
+    
+    .photo4{
+        background-image: url("../images/restaurants zozor/image4.jpg");
+    }
+
+    footer{
+        background:#535353;
+        color: white;
+        padding: 1rem;
+        height: 25vh;
+        justify-content: center;
+        align-items: center;
+    }
+    h5{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        font-size: 25px;
+    }
+    
+    h5{
+        margin-top: 0rem;
+        font-size:1.5rem;
+        margin-left: 1em;
+        color: white;
+        font-family:'Shrikhand', cursive;   
+
+    }
+        
+    footer .footer_list{      
+        margin-top: -.5rem;
+        justify-content: space-around;
+        display:inline-block;
+        list-style: none;
+    }
+    .fa-utensils:before{
+        margin-right: 1em;
+    }
+    .fa-handshake:before{
+        margin-right: .5em;
+    }
+
+}

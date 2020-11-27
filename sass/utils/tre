@@ -299,3 +299,12 @@ corps {
     -webkit-box-pack: center;
     justify-self: center;
     align-self: flex-start;
+
+
+width: auto;
+        padding:16px;
+        height: 12vh;
+        margin-block-start: .73em;
+        text-align: center;
+        margin-top:.8rem;
+        background-color:#f0efef  
