@@ -118,7 +118,7 @@
     .fa-mobile-alt:before{
         color:grey;
         margin-left: 2em;
-        margin-right: 2em;
+        margin-right: 1em;
 
     }
 
@@ -129,7 +129,7 @@
     .fa-list-ul:before{
         color:grey;
         margin-left: 2em;
-        margin-right: 2em;
+        margin-right: 1em;
         margin-bottom: 1em;
     }
     
@@ -140,7 +140,7 @@
     .fa-store:before{
         color:grey;
         margin-left: 2em;
-        margin-right: 2em;
+        margin-right: 1em;
         
     }
 
@@ -150,7 +150,10 @@
     .number{
         margin-right: 2em;
         margin-bottom: 1em;
-    
+        background-color: blueviolet;
+        padding: 10px;
+        border-radius:50%;
+        color: white;
     }
 
     a.button.Fonctionnement {
@@ -160,7 +163,7 @@
         color: black;
         padding: 12px;
         margin-bottom: 0rem;
-        text-align:center;
+        text-align:left;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
