@@ -1,0 +1,439 @@
+@media screen and (min-width: 300px){
+    body{
+        width: auto;
+        height: 100%;
+        padding-left: 4rem;
+        
+        padding-right: 4rem;
+        word-wrap: break-word;
+        
+    
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+
+    body{
+        width: 95%;
+        display: block;
+        background: white;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+
+
+
+
+    /*section info*/
+
+    section.info{
+        background-color:#f0efef;
+        width: 95%;
+        padding: 16px;
+        display: flex;
+        margin-top: 0rem;
+        height: 40vh;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+        
+    h2{
+        width: 95%;
+        padding: 17px;
+        height: 12vh;
+        background-color: rgb(201, 195, 195);
+        margin-top:4rem;
+        margin-block-start: .73em;
+    }
+    
+    section.info h2 .fa-heart:before {
+        margin-right: 1.5rem;
+    
+    }
+    a:hover{
+        color:red;
+        text-decoration: none;
+        
+        
+
+    }    
+
+    h3{
+        font-size: 1.5rem;
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+            
+    }
+
+    p{
+        font-size: 1.5em;
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+        
+    }
+
+    
+    .button {
+        background-color: rgb(214, 13, 214);
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2rem;
+
+
+    }
+
+
+
+    /*section fonctionnement*/
+
+    .fonctionnement{
+        h3{
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }   
+        li{
+            margin-right: 3rem;
+            text-decoration-color: black;
+            margin-left:4rem;
+        }
+
+    }
+
+
+
+    /*section photo*/
+    h2{
+        margin-top: 0rem;
+        margin-left: -2rem;
+        margin-right: -2rem;
+        font-size: 25px;
+    }
+
+    .photo{
+        margin-top:4rem;
+        background-size: cover;
+        width:500px;
+        height:500px;
+        border:1px solid yellow;
+        
+        background-position: center;
+    }
+    .photo1{
+        background-image: url("../images/restaurants/image1.jpg");
+        
+    }
+
+    .photo2{
+        background-image: url("../images/restaurants/image2.jpg");
+    }
+
+    .photo3{
+        background-image: url("../images/restaurants/image3.jpg");
+    }
+
+    .photo4{
+        background-image: url("../images/restaurants/image4.jpg");
+    }
+
+
+}   
+ h2 {
+        width: 96%;
+        padding: 16px;
+        height: 12vh;
+        margin-block-start: .73em;
+        text-align: center;
+        margin-top: .8rem;
+        background-color: none;
+    }
+ .photo{
+        margin-top:4rem;
+        background-size: cover;
+        width:500px;
+        height:500px;
+        border:1px solid yellow;
+        
+        background-position: center;
+    }
+    .photo1{
+        background-image: url("../images/restaurants zozor/image1.jpg");
+        
+    }
+    
+    .photo2{
+        background-image: url("../images/restaurants zozor/image2.jpg");
+    }
+    
+    .photo3{
+        background-image: url("../images/restaurants zozor/image3.jpg");
+    }
+    
+    .photo4{
+        background-image: url("../images/restaurants zozor/image4.jpg");
+    }             
+
+    @media screen and (min-width: 300px){
+    body{
+        width: auto;
+        height: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        word-wrap: break-word;
+        
+    }
+        
+    
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+    
+    body{
+        background: white;
+        font-size: 14px;
+        line-height: 22px;
+        color: #585c68;  
+    }
+
+    h1{
+        display: block;
+        font-size:4rem;
+        font-family: 'Shrikhand', cursive;
+        text-align: center;
+                
+    }
+
+                
+    section.info {
+        background-color:#f0efef;
+        width: 95%;
+        padding: 16px;
+        display: flex;
+        margin-top: 0rem;
+        height: 40vh;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }  
+   
+    
+    
+    .info h2{
+        font-size: 2em;
+    }
+        
+
+    
+
+    .info p{
+        background-color: rgb(153, 149, 149);
+        
+
+    }    
+    .fa-map-marker-alt:before{
+        color:blue;
+    }
+    
+    a:hover{
+        color:red;
+        text-decoration: none;
+                    
+                    
+
+    }
+    a{
+        margin-right: 1.5rem;
+    }
+
+        
+
+
+    .button {
+        background-color: rgb(214, 13, 214);
+        
+        border: none;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2rem;
+
+    }
+    
+
+    .info{
+        background-color:#f0efef;
+        width: 95%;
+        padding: 16px;
+        display: flex;
+        height: 40vh;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h3{
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        font-size: 2em;
+        font-style: bold;
+    }
+
+    p{
+        margin-left: 1.5rem;
+        font-size: 3em;
+
+    }
+
+    section.fonctionnement h2{
+        font-size: 2.5em;
+    }
+    
+
+    
+    section .fonctionnement-list{
+        display: flex;
+        display:inline-flex;
+        list-style: none;
+        height: 25vh;
+    
+    }
+
+    a.button.Fonctionnement {
+        background-color: rgb(145, 141, 141);
+        width:96%;
+        border: none;
+        color: black;
+        padding: 12px;
+        margin-bottom: 1rem;
+        text-align:right;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2rem;
+        justify-content:space-around;
+        line-height: 1.5;
+        margin-left: 4rem;
+    }
+
+    .main{
+        background-color:#f0efef;         
+          
+
+    }
+
+    .main p{
+        float: left;
+    }
+
+    
+    img{
+        overflow: hidden;
+
+        
+        height:100%;
+        border: solid rgb(163, 163, 6);
+        margin-top: 1.5rem;
+        position: relative;
+        background-size: cover;
+        widows:360px;
+        height:360px;
+        border:1px solid yellow;
+        justify-content:center ;
+        background-position: center;
+    }
+    h4{
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+
+
+    .fa-heart{
+        margin-left: 5rem;
+
+    }
+    .fa-heart  a:hover{
+        color: blueviolet;
+        text-decoration: none;
+    }
+
+
+    .container{
+        width: auto;
+        margin: auto;
+
+    }
+
+    .container-grid {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        grid-row: auto;
+                 
+    }
+         
+        
+    
+    
+   
+
+    footer{
+        background:#535353;
+        color: white;
+        padding: 1rem;
+        height: 25vh;
+        justify-content: center;
+        align-items: center;
+    }
+    h5{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        font-size: 15px;
+    }
+    
+    h5{
+        margin-top: 0rem;
+        font-size:1.5rem;
+        margin-left: 1em;
+        color: white;
+        font-family:'Shrikhand', cursive;   
+
+    }
+        
+    footer .footer_list{      
+        margin-top: -.5rem;
+        justify-content: space-around;
+        display:inline-flex;
+        list-style: none;
+    }
+
+    .fa-utensils:before{
+        margin-right: 1em;
+        margin-top: -1em;
+    }
+
+    .fa-handshake:before{
+        margin-right: .5em;
+        margin-top: -1em;
+    }
+
+
+}
