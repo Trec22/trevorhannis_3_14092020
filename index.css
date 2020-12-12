@@ -207,15 +207,13 @@
 
     img{
         overflow: hidden;
-        border: solid rgb(163, 163, 6);
+        border-radius: 20px 20px 0 0;
+        border:1px solid red;
         margin-top: 1.5rem;
         position: relative;
-        background-size: cover;
-        width:350px;
-        height:350px;
-        border:1px solid yellow;
-        justify-content: center;
-        background-position: center;
+        width:100%;
+        height:400px;
+        background-color:white;
     }
     
     h4{
@@ -313,7 +311,25 @@
         word-wrap: break-word;
     }
     .info{
-        padding: 34px;
+        margin-top: .2em;
+        padding: 20px;
+    }
+
+    h2{
+        margin-top: -2.2rem;
+        height: 4vh;
+    }
+
+    .info h3{
+        margin-top: -1.5em;
+        margin-bottom: 1.5em;
+    }
+    .info p{
+        margin-top: -1.5em;
+    }
+
+    .info .button{
+        margin-top:-1.5em;
     }
 
     section .fonctionnement-list{
@@ -323,6 +339,7 @@
         height: 20vh;
         margin: 0;
         justify-content: space-between;
+        
     }
     section .fonctionnement-list li{
         margin-bottom:.5em;
@@ -331,19 +348,29 @@
         margin: 0;
     }
 
-    .main h3{
-        padding-top: 1em;
-
-    }
-
-    main{
+    main {
+        margin-top: 2rem;
         text-align: left;
         display: list-item;
 
     }
+    .container-grid {
+        margin-top: -1rem;
+        display: list-item;
+    }
+
+    h4{
+        margin-top:1em;
+    }
+    .main h3{
+        margin-top: -.5em;
+    }
+    .main p{
+        margin-top: -.5em;
+    }
 
     footer{
-        height: 30vh;
+        height: 26vh;
     }
     footer h5{
         text-align:left;
@@ -358,7 +385,6 @@
     
     }
     
-
     footer .footer_list .fa-1x{
         font-size: .7em;
     }
