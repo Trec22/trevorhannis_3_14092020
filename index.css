@@ -33,10 +33,9 @@
         width: 96%;
         padding:16px;
         height: 12vh;
-        margin-block-start: .73em;
+        margin-block-start:.73em;
         text-align: center;
         margin-top:.8rem;
-        
         background-color: rgb(201, 195, 195);           
         
 
@@ -50,8 +49,7 @@
 
     a:hover{
         color:red;
-        text-decoration: none;
-                           
+        text-decoration: none;                      
 
     }
 
@@ -60,12 +58,10 @@
         margin-right: 1.5rem;
     }
 
-        
-
+    
 
     .button {
         background-color: rgb(214, 13, 214);
-        
         border: none;
         color: white;
         padding: 10px;
@@ -186,18 +182,30 @@
 
 
     .main{
-        background-color:#f0efef;         
-        
-        
+        background-color:#f0efef; 
+                
 
     }
+
+    main a.button{
+        background-color: rgb(7, 197, 165);
+        color: rgb(4, 134, 4);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: 2px;
+        float:right;
+        margin-top: 2rem;
+
+
+    }
+
     .main p{
         float: left;
     }
 
     img{
         overflow: hidden;
-    
         border: solid rgb(163, 163, 6);
         margin-top: 1.5rem;
         position: relative;
@@ -217,11 +225,17 @@
 
     .fa-heart{
         margin-left: 10rem;
+        
 
     }
     .fa-heart:hover{
         color: blueviolet;
         text-decoration: none;
+        top:-40px;
+        z-index: 1;
+        background-color: blueviolet;
+
+        
     }
 
 
@@ -269,11 +283,14 @@
         justify-content: space-around;
         list-style: none;
         display: inline-flex;
+        align-items: flex-start;
     }
+
     .fa-utensils:before{
         margin-right: 1em;
         margin-top: 2em;
     }
+
     .fa-handshake:before{
         margin-right: .5em;
         margin-top:2em;
@@ -293,6 +310,57 @@
         height: 100%;
         word-wrap: break-word;
     }
+    .info{
+        padding: 34px;
+    }
+
+    section .fonctionnement-list{
+        display: list-item;
+        text-align: left;
+        list-style: none;
+        height: 20vh;
+        margin: 0;
+        justify-content: space-between;
+    }
+    section .fonctionnement-list li{
+        margin-bottom:.5em;
+    }
+    .number{
+        margin: 0;
+    }
+
+    .main h3{
+        padding-top: 1em;
+
+    }
+
+    main{
+        text-align: left;
+        display: list-item;
+
+    }
+
+    footer{
+        height: 30vh;
+    }
+    footer h5{
+        text-align:left;
+        font-size:2em;
+    }
+    
+    footer .footer_list{
+        font-size: .2em;
+        text-align: left;
+        display: list-item;
+        margin-left: 1em;
+    
+    }
+    
+
+    footer .footer_list .fa-1x{
+        font-size: .7em;
+    }
+    
 
 }
 
