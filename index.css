@@ -274,6 +274,7 @@
         grid-template-rows: auto;
         column-gap: 2rem;
         grid-row: auto;
+        
                  
     }
        
@@ -333,14 +334,22 @@
         height: 100%;
         word-wrap: break-word;
     }
+    h1{
+        font-size: 2.5rem;
+    }
     .info{
         margin-top: .2em;
-        padding: 20px;
+        padding: 18px;
+        height: 26vh;
     }
 
     h2{
-        margin-top: -2.2rem;
+        margin-top: -1.5rem;
         height: 4vh;
+        padding: 14px;
+    }
+    h3{
+       font-size:1.5em;
     }
 
     .info h3{
@@ -348,19 +357,31 @@
         margin-bottom: 1.5em;
     }
     .info p{
-        margin-top: -1.5em;
+        margin-top: -1.8em;
+        font-size: 1.5em;
     }
 
     .info .button{
         margin-top:-1.5em;
     }
+    section.fonctionnement{
+        margin-top:-2em;
+    }
+    div.step.step1{
+        margin-top:-1em;
+        margin-bottom: 1em;
+    }
+    div.step.step3{
+        margin-top:1em;
+        margin-bottom: -.5em;
 
     article .fonctionnement-list{
         display: list-item;
         text-align: left;
         list-style: none;
-        height: 20vh;
+        height: 15vh;
         margin: 0;
+        
         justify-content: space-between;
         
     }
