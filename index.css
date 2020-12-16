@@ -173,7 +173,7 @@
         width:96%;
         border: none;
         color: black;
-        padding: 12px;
+        padding: 10px;
         margin-bottom: 0rem;
         text-align:left;
         text-decoration: none;
@@ -369,12 +369,17 @@
     }
     div.step.step1{
         margin-top:-1em;
-        margin-bottom: 1em;
+        margin-bottom: .8em;
     }
     div.step.step3{
-        margin-top:1em;
+        margin-top:.8em;
         margin-bottom: -.5em;
+        
+    } 
 
+    div.number{
+        margin-left: -1.3em;
+    }
     article .fonctionnement-list{
         display: list-item;
         text-align: left;
@@ -414,19 +419,24 @@
     }
 
     footer{
-        height: 26vh;
+        height: 25vh;
     }
     footer h5{
+        margin-top: -.2em;
         text-align:left;
         font-size:2em;
     }
     
     footer .footer_list{
-        font-size: .2em;
+        
         text-align: left;
         display: list-item;
         margin-left: 1em;
+        margin-top:-1.5em;
     
+    }
+    li{
+        font-size: 1.8rem;
     }
     
     footer .footer_list .fa-1x{
