@@ -484,6 +484,12 @@
         height: auto;
         display: inline-flex;
     }
+    footer{
+        padding:95px;
+
+
+    }
+    
 
 }
 
