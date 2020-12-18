@@ -76,7 +76,7 @@
 
     .info{
         background-color:#f0efef;
-        width: 95%;
+        width: auto;
         padding: 16px;
         display: flex;
         height: 40vh;
@@ -106,13 +106,13 @@
         
     }
     
-    article.fonctionnement_list{
+    section.fonctionnement_list{
         margin-left: 2rem;
         text-align: center;
     }
     
 
-    article div{
+    section div{
         margin-left: -1rem;
         display: inline-flex;
         justify-content: space-between;
@@ -193,7 +193,7 @@
     }
 
 
-    div.button{
+    article a.button{
         background-color: rgb(7, 197, 165);
         color: rgb(4, 134, 4);
         -webkit-border-radius: 4px;
@@ -340,8 +340,8 @@
     }
     .info{
         margin-top: .2em;
-        padding: 18px;
-        height: 26vh;
+        padding: 12px;
+        height:20vh;
     }
 
     h2{
@@ -382,7 +382,7 @@
     div.number{
         margin-left: -1.3em;
     }
-    article .fonctionnement-list{
+    section .fonctionnement-list{
         display: list-item;
         text-align: left;
         list-style: none;
@@ -421,24 +421,26 @@
     }
 
     footer{
-        height: 25vh;
+        height: 6vh;
     }
     footer h5{
-        margin-top: -.2em;
+        margin-top: -2em;
         text-align:left;
         font-size:2em;
+        margin-left: -2rem;
     }
     
     footer .footer_list{
         
         text-align: left;
         display: list-item;
-        margin-left: 1em;
+        margin-left:-2.5em;
         margin-top:-1.5em;
     
     }
     li{
         font-size: 1.8rem;
+        margin-left: -2rem;
     }
     
     footer .footer_list .fa-1x{
@@ -468,14 +470,17 @@
     .info{
         background-color:#f0efef;
        
-        padding: 95px;
+        padding: auto;
         display: flex;
-        height: 40vh;
+        height: 34vh;
         justify-content:space-around;
         -webkit-box-align: center;
         -webkit-box-direction: normal;
         align-items: center;
         flex-direction: column;
+    }
+    .button{
+        margin-top: -.5rem;
     }
     section .fonctionnement-list{
         display: block;
@@ -487,7 +492,10 @@
     footer{
         padding:95px;
 
-
+    }
+    footer li{
+        font-size: 2em;
+        line-height: -.1em;
     }
     
 
