@@ -483,7 +483,7 @@
     }
     section .fonctionnement-list{
         margin-top: .7rem;
-        margin-left:1.7rem;
+        margin-left:4rem;
         list-style: none;
         height:auto;
         
@@ -533,9 +533,9 @@
         flex-direction: column;
     }
     h2{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        
+        margin-left:-5.5rem;
+        margin-right: -5.5rem;
     }
     h3{
         margin-top: .5em;
