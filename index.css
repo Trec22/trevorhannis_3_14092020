@@ -121,7 +121,11 @@
     
     }
 
-    
+    .restaurants{
+        display: flex;
+        flex-direction: column;
+    }
+
     .fa-mobile-alt:before{
         color:grey;
         margin-left:-.5em;
@@ -155,7 +159,11 @@
         color:rgb(214, 13, 214);
        
     }
+    
+
+
     .number{
+        
         margin-left: -1.5rem;
         margin-right: 2em;
         margin-bottom: 1em;
@@ -204,6 +212,7 @@
         position: absolute;
         right: 0;
         margin-top: 2rem;
+        z-index: 2;
        
 
     }
@@ -215,18 +224,21 @@
     main article {
         display: flex;
         position: relative;
-        border-radius: 20px;
-        border:1px solid red;
+        border-radius: 16px;
+        margin-left:1em;
         background-color: white;
+        margin-bottom: 1.5em;
+        margin-right: 1em;
 
     }
-    
-    figure.photo.photo1{
-        width: 100%;
-        margin:0;
-        border-radius: 20px 20px 0 0;
-        height: auto;
+    #img_restaurant1{
+        
+        height: 375px;
+        width: 541px;
+        margin-left:.1rem;
     }
+
+
 
 
     img{
