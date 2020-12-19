@@ -30,7 +30,7 @@
                 
                 
     h2{
-        width: 96%;
+        width: 100%;
         padding:16px;
         height: 12vh;
         margin-block-start:.73em;
@@ -96,7 +96,7 @@
 
     p{
         margin-top: -1rem;
-        margin-left: 1.6em;
+        margin-left: 1.2em;
         font-size: 2em;
 
     }
@@ -345,28 +345,29 @@
     }
 
     h2{
-        margin-top: -1.5rem;
+        margin-top: -2.5rem;
         height: 4vh;
         padding: 14px;
+
     }
     h3{
        font-size:1.5em;
     }
 
     .info h3{
-        margin-top: -1.5em;
-        margin-bottom: 1.5em;
+        margin-top: -.2em;
+        margin-bottom: 1.8em;
     }
     .info p{
-        margin-top: -1.8em;
+        margin-top: -1.2em;
         font-size: 1.5em;
     }
 
     .info .button{
-        margin-top:-1.5em;
+        margin-top:-.2em;
     }
     section.fonctionnement{
-        margin-top:-2em;
+        margin-top:-.5em;
     }
     div.step.step1{
         margin-top:-1em;
@@ -382,15 +383,13 @@
     div.number{
         margin-left: -1.3em;
     }
-    section .fonctionnement-list{
-        display: list-item;
+    section.fonctionnement-list{
+        display:list-item;
         text-align: left;
         list-style: none;
         height: 15vh;
         margin: 0;
-        
-        justify-content: space-between;
-        
+         
     }
     section .fonctionnement-list div{
         margin-bottom:0;
@@ -483,14 +482,14 @@
         margin-top: -.5rem;
     }
     section .fonctionnement-list{
-        display: block;
-        text-align: center;
+        margin-top: .7rem;
+        margin-left:1.7rem;
         list-style: none;
-        height: auto;
-        display: inline-flex;
+        height:auto;
+        
     }
     footer{
-        padding:95px;
+        padding:60px;
 
     }
     footer li{
@@ -500,7 +499,75 @@
     
 
 }
+@media screen and (max-width: 300px){
+    .resume {
+        width: 100%;
+        height: 100%;
+        
+    }
+    body{
+        width:100%;
+        height: 100%;
+    }
+    header{
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+    h1{
+    
+        font-size:2.5rem;
+        font-family: 'Shrikhand', cursive;
+    
+    }
+    .info{
+        background-color:#f0efef;
+   
+        padding: 60px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h3{
+        margin-top: .5em;
+    }
 
+    .button{
+         margin-top: -.5rem;
+    }
+    section .fonctionnement-list{
+        margin-top: .7rem;
+        margin-left:1.7rem;
+        list-style: none;
+        height:auto;
+    
+    }
+    footer{
+        width: 100%;
+        padding:60px;
+
+
+    }
+    ul.footer_list{
+        
+        font-size: .8rem;
+    }
+    footer li{
+        font-size:2em;
+        
+        
+    }
+
+}
 
 
 
