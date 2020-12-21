@@ -107,16 +107,16 @@
     }
     
     section.fonctionnement_list{
-        margin-left: 2rem;
+    
         text-align: center;
     }
     
 
     section div{
-        margin-left: -1rem;
+        margin-left: 4rem;
         display: inline-flex;
         justify-content: space-between;
-        height: 10vh;
+        height: 7.5vh;
 
     
     }
@@ -164,7 +164,7 @@
 
     .number{
         
-        margin-left: -1.5rem;
+        margin-left: -2rem;
         margin-right: 2em;
         margin-bottom: 1em;
         background-color: blueviolet;
