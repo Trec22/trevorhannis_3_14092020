@@ -259,8 +259,10 @@
 
     .fa-heart{
         margin-top: -1em;
-        margin-left: 8rem;
-        
+        margin-left: 20rem;
+        background:-webkit-radial-gradient(center,white);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
 
     }
     .fa-heart:hover{
