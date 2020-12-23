@@ -267,9 +267,11 @@
         color: blueviolet;
         text-decoration: none;
         top:-40px;
-        z-index: 1;
-        background-color: blueviolet;
+        
+        background:-webkit-radial-gradient(ellipse,blueviolet 4%,fb7aec 75%,blueviolet);
 
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:blueviolet;
         
     }
 
