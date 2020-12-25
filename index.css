@@ -262,7 +262,7 @@
         margin-left: 20rem;
         background:-webkit-radial-gradient(center,white);
         -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
+        -webkit-text-fill-color:rgb(231, 231, 222);
 
     }
     .fa-heart:hover{
