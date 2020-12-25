@@ -402,6 +402,76 @@
 
       
 }
+@media screen and (max-width: 300px){
+    .resume {
+        width: 100%;
+        height: 100%;
+        
+    }
+    body{
+        width:100%;
+        height: 100%;
+    }
+    header{
+        text-align: center;
+        margin-left: 2.5rem;
+    }
+    h1{
+    
+        font-size:2.5rem;
+        font-family: 'Shrikhand', cursive;
+    
+    }
+    .info{
+        background-color:#f0efef;
+   
+        padding: 80px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        
+        margin-left:-5.5rem;
+        margin-right: -5.5rem;
+    }
+    h3{
+        margin-top: .5em;
+    }
+
+    .button{
+         margin-top: -.5rem;
+    }
+    section .fonctionnement-list{
+        margin-top: .7rem;
+        margin-left:1.7rem;
+        list-style: none;
+        height:auto;
+    
+    }
+    footer{
+        width: 100%;
+        padding:60px;
+
+
+    }
+    ul.footer_list{
+        
+        font-size: .8rem;
+    }
+    footer li{
+        font-size:2em;
+        
+        
+    }
+
+}
+
 
 @media screen and (max-width: 700px){
     .resume {
@@ -521,80 +591,22 @@
         font-size: .7em;
     }
     
-
 }
 
-
-
-@media screen and (max-width: 300px){
-    .resume {
-        width: 100%;
-        height: 100%;
-        
-    }
-    body{
-        width:100%;
-        height: 100%;
-    }
-    header{
-        text-align: center;
-        margin-left: 2.5rem;
-    }
-    h1{
-    
-        font-size:2.5rem;
-        font-family: 'Shrikhand', cursive;
-    
-    }
-    .info{
-        background-color:#f0efef;
-   
-        padding: 80px;
-        display: flex;
-        height: 100%;
-        width: 100%;
-        justify-content:space-around;
-        -webkit-box-align: center;
-        -webkit-box-direction: normal;
-        align-items: center;
-        flex-direction: column;
-    }
+@media screen and (min-width:1200px){
     h2{
-        
-        margin-left:-5.5rem;
-        margin-right: -5.5rem;
+        height: 8vh;
+        margin-top:-1em;
     }
-    h3{
-        margin-top: .5em;
-    }
-
-    .button{
-         margin-top: -.5rem;
-    }
-    section .fonctionnement-list{
-        margin-top: .7rem;
-        margin-left:1.7rem;
-        list-style: none;
-        height:auto;
-    
-    }
-    footer{
-        width: 100%;
-        padding:60px;
-
-
-    }
-    ul.footer_list{
-        
-        font-size: .8rem;
-    }
-    footer li{
-        font-size:2em;
-        
-        
+    a.button.Fonctionnement{
+        width: 40vh;
+        margin-left:-3rem;
     }
 
 }
+
+
+
 
 
 
