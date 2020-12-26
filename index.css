@@ -9,64 +9,6 @@
         
     }
 
-    .resume {
-        width: 100%;
-        height: 100%;
-            
-    }
-    header{
-        text-align: center;
-       
-    }
-    h1{
-            
-        font-size:2.5rem;
-        font-family: 'Shrikhand', cursive;
-            
-    }
-    .info{
-        background-color:#f0efef;
-           
-        padding: auto;
-        display: flex;
-        justify-content:space-around;
-        -webkit-box-align: center;
-        -webkit-box-direction: normal;
-        align-items: center;
-        flex-direction: column;
-    }
-    .button{
-        margin-top: -.5rem;
-    }
-    section .fonctionnement-list{
-        margin-top: .7rem;
-        margin-left:4rem;
-        list-style: none;
-        height:auto;
-            
-    }
-    a.button.Fonctionnement {
-        margin-top: .5em;
-    }
-    
-    img#img_restaurant1{
-        height: 300px;
-        width:445px;
-    } 
-    footer{
-        padding:60px;
-    
-    }
-    footer li{
-        font-size: 2em;
-        line-height: -.1em;
-    }
-        
-    
-
-    
-    
-
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
     
     body{
@@ -292,8 +234,8 @@
     }
     #img_restaurant1{
         
-        height: 375px;
-        width: 556px;
+        height: 307px;
+        width: 448px;
         margin-left:.1rem;
     }
 
@@ -360,7 +302,7 @@
     footer{
         background:#535353;
         color: white;
-        padding: 1rem;
+     
         justify-content: center;
         align-items: center;
     }
@@ -402,6 +344,7 @@
 
       
 }
+
 @media screen and (max-width: 300px){
     .resume {
         width: 100%;
@@ -418,8 +361,9 @@
     }
     h1{
     
-        font-size:2.5rem;
+        font-size:3rem;
         font-family: 'Shrikhand', cursive;
+        margin-bottom: 2em;
     
     }
     .info{
@@ -445,7 +389,7 @@
     }
 
     .button{
-         margin-top: -.5rem;
+        margin-top: -.5rem;
     }
     section .fonctionnement-list{
         margin-top: .7rem;
@@ -472,16 +416,82 @@
 
 }
 
+/*
+@media screen and (min-width: 300px){
 
+    .resume {
+        width: 100%;
+        height: 100%;
+            
+    }
+    header{
+        text-align: center;
+    
+    }
+    h1{
+    
+        font-family: 'Shrikhand', cursive;
+            
+    }
+    section.info{
+        width: 450px;
+        height: 30vh;
+    }
+
+    .info{
+        background-color:#f0efef;
+        
+        padding:20px;
+        display: flex;
+        justify-content:space-around;
+        -webkit-box-align: center;
+        -webkit-box-direction: normal;
+        align-items: center;
+        flex-direction: column;
+    }
+    .button{
+        margin-top: -.5rem;
+    }
+    section .fonctionnement-list{
+        margin-top: 1rem;
+        margin-left:4rem;
+        list-style: none;
+        height:auto;  
+            
+    }
+   
+    a.button.Fonctionnement {
+        margin-top: 1em;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+    }
+
+    img#img_restaurant1{
+        height: 300px;
+        width:445px;
+    } 
+    footer{
+        padding:10px;
+
+    }
+    footer li{
+        font-size: 2em;
+        line-height: -.1em;
+    }
+        
+}
+*/
 @media screen and (max-width: 700px){
     .resume {
         width: auto;
         height: 100%;
         word-wrap: break-word;
     }
+
     h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
+
     .info{
         margin-top: .2em;
         padding: 12px;
@@ -494,6 +504,7 @@
         padding: 12px;
 
     }
+
     h3{
        font-size:1.5em;
     }
@@ -502,6 +513,7 @@
         margin-top: -.2em;
         margin-bottom: 1.8em;
     }
+
     .info p{
         margin-top: -1.2em;
         font-size: 1.5em;
@@ -510,13 +522,16 @@
     .info .button{
         margin-top:-.2em;
     }
+
     section.fonctionnement{
         margin-top:-.5em;
     }
+
     div.step.step1{
         margin-top:-1em;
         margin-bottom: .8em;
     }
+
     div.step.step3{
         margin-top:.8em;
         margin-bottom: -.5em;
@@ -527,6 +542,7 @@
     div.number{
         margin-left: -10rem;
     }
+
     section.fonctionnement-list{
         display:list-item;
         text-align: left;
@@ -535,6 +551,7 @@
         margin: 0;
          
     }
+
     section .fonctionnement-list div{
         margin-bottom:0;
     }
@@ -545,6 +562,12 @@
         display: list-item;
 
     }
+
+    img#img_restaurant1{
+        height: 300px;
+        width:445px;
+    }
+
     .container-grid {
         margin-top: -1rem;
         display: list-item;
@@ -563,6 +586,7 @@
     main.main{
         margin-bottom: 1rem;
     }
+    
 
     footer{
         height: 25vh;
@@ -594,20 +618,26 @@
 }
 
 @media screen and (min-width:1200px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+    }
+
     h2{
-        height: 8vh;
+        height: 6vh;
         margin-top:-1em;
     }
+
     a.button.Fonctionnement{
         width: 40vh;
         margin-left:-3rem;
     }
+    
 
-}
+   
 
-
-
-
+} 
 
 
 
