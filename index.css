@@ -1,47 +1,32 @@
-@media screen and (min-width: 300px){
-    body{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+    
+@media screen and (min-width:1200px){
+    .resume {
         width: auto;
         height: 100%;
-        padding-left: 4rem;
-        padding-right: 4rem;
-        
-
-        
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-    
-    body{
-        background: white;
-        font-size: 14px;
-        line-height: 22px;
-        color: #585c68;  
+        word-wrap: break-word;
     }
 
     h1{
-        display: block;
-        font-size:3.5rem;
-        font-family: 'Shrikhand', cursive;
-        text-align: center;
-        margin-right:-1em;
-        margin-bottom: 1.5em;
-                
+        display:block;
+        font-size: 3rem;
+        font-family: 'shrikhand',cursive;
+        text-align:center;
+    }
+    section.info{
+        background:rgb(240,239,239);
+        height:35vh;
     }
 
-                
-                
     h2{
-        width: 100%;
-        padding:16px;
-        height: 12vh;
-        margin-block-start:.73em;
+        height: 6vh;
+        margin-top:-1em;
         text-align: center;
-        margin-top:.8rem;
-        background-color: rgb(201, 195, 195);           
-        
+        background-color:rgb(201,195,195);
+        margin-top: -2.5rem;
+        padding: 10px;
 
     }
-
     h2 i{
         background-color: rgb(145, 141, 141);
         
@@ -58,9 +43,18 @@
     a{
         margin-right: 1.5rem;
     }
+    h3{
+        margin-top:-.5rem;
+        font-size:2em;
+        text-align: center;
+    }
 
+    p{
+        margin-top:-1em;
+        font-size:2em;
+        text-align: center;
+    }
     
-
     .button {
         background-color: rgb(214, 13, 214);
         border: none;
@@ -71,57 +65,27 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 2rem;
-
-    }
-    
-
-    .info{
-        background-color:#f0efef;
-        width: auto;
-        padding: 16px;
-        display: flex;
-        height: 40vh;
-        justify-content:space-around;
-        -webkit-box-align: center;
-        -webkit-box-direction: normal;
-        align-items: center;
-        flex-direction: column;
+        margin-left:41rem;
     }
 
-    h3{
-        
-        margin-left: 1.5rem;
-        font-size: 2em;
-        font-style: bold;
-    }
-
-    p{
-        margin-top: -1rem;
-        margin-left: 1.2em;
-        font-size: 2em;
-
-    }
-    
-    section .fonctionnement{
+    section.fonctionnement{
         display:flex;
-        
+            
     }
-    
-    section.fonctionnement_list{
-    
-        text-align: center;
+
+    .fonctionnement h3{
+        text-align: left;
+        margin-top: .5em;
+        margin-left:1em;
     }
-    
 
     section div{
         margin-left: 4rem;
         display: inline-flex;
         justify-content: space-between;
         height: 7.5vh;
-
-    
     }
-
+    
     .restaurants{
         display: flex;
         flex-direction: column;
@@ -160,12 +124,28 @@
         color:rgb(214, 13, 214);
        
     }
-    
 
+
+    section.fonctionnement{
+        margin-top:-.5em;
+    }
+
+    div.step.step1{
+        margin-top:-1em;
+        margin-bottom: .8em;
+    }
+
+    div.step.step3{
+        margin-top:.8em;
+        margin-bottom: -.5em;   
+    }
+  
+    
+    div.number{
+        margin-left: -7rem;
+    }
 
     .number{
-        
-        margin-left: -2rem;
         margin-right: 2em;
         margin-bottom: 1em;
         background-color: blueviolet;
@@ -177,31 +157,71 @@
         color: white;
     }
 
-    a.button.Fonctionnement {
-        background-color:#f0efef;
-        width:60vh;
-        border: none;
-        color: black;
-        padding:2px;
-        margin-bottom: 0rem;
-        text-decoration: none;
-        display: inline-block;
+    div a.button.Fonctionnement{
+        margin-left:-1.5rem;
+        margin-top: .5em;
+        color:black;
         font-size: 16px;
-        border-radius: 2rem;
-        justify-content:space-around;
         line-height: 1.5;
-        margin-left: 2rem;
-        height: 50px;
-       
+        justify-content: space-between;
+        background-color:#f0efef;
+        width:40vh;
+        border: none;
+        padding: 20px;
+        
     }
 
+    section.fonctionnement-list{
+        display:list-item;
+        text-align: left;
+        list-style: none;
+        height: 15vh;
+        margin-right: 1em;
+        margin-left:1em; 
+    }
 
+    section .fonctionnement-list div{
+        margin-bottom:0;
+    }
+   
+    main.main{
+        background-color: rgb(240,239,239);
+        display: block;
+    }
     .main{
         background-color:#f0efef;           
 
     }
+    main article {
+        display: flex;
+        position: relative;
+        border-radius: 16px;
+        margin-left:1em;
+        background-color: white;
+        margin-bottom: 1.5em;
+        margin-right: 1em;
 
+    }
+    .main h3{
+        text-align: left;
+        margin-left: 1em;
+    }
+    .container{
+        width: auto;
+        margin: auto;
 
+    }
+    
+    .container-grid {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        grid-row: auto;
+        
+                 
+    }
+       
     article a.button{
         background-color: rgb(7, 197, 165);
         color: rgb(4, 134, 4);
@@ -215,32 +235,14 @@
         margin-top: 2rem;
         z-index: 2;
        
-
     }
-
-    .main p{
-        float: left;
-    }
-
-    main article {
-        display: flex;
-        position: relative;
-        border-radius: 16px;
-        margin-left:1em;
-        background-color: white;
-        margin-bottom: 1.5em;
-        margin-right: 1em;
-
-    }
+    
     #img_restaurant1{
         
-        height: 307px;
-        width: 448px;
+        height: 450px;
+        width: 600px;
         margin-left:.1rem;
     }
-
-
-
 
     img{
         overflow: hidden;
@@ -253,56 +255,43 @@
     }
     
     h4{
+        margin-top:-.5em;
         font-size: 1.5em;
         margin-left: 2em;
+        margin-right: 4rem;
     }
 
+    article.restaurants{
+        display:flex;
+    }
 
-    .fa-heart{
-        margin-top: -1em;
+    .main p{
+        float: left;
+        margin-left:3rem;
+    }
+
+    .fa-heart-o:hover{
+    
         margin-left: 20rem;
-        background:-webkit-radial-gradient(center,white);
         -webkit-background-clip:text;
         -webkit-text-fill-color:rgb(248, 248, 242);
-
+        -webkit-text-fill-color: transparent;
     }
-    .fa-heart:hover{
+    
+    .fa-heart-o:hover{
         color: blueviolet;
         text-decoration: none;
         top:-40px;
-        
         background:-webkit-radial-gradient(ellipse,blueviolet 4%,fb7aec 75%,blueviolet);
-
         -webkit-background-clip:text;
         -webkit-text-fill-color:blueviolet;
-        
-    }
-
-
-    .container{
-        width: auto;
-        margin: auto;
 
     }
-
-    .container-grid {
-        display: grid;
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: auto;
-        column-gap: 2rem;
-        grid-row: auto;
-        
-                 
-    }
-       
-    
-    
-
 
     footer{
         background:#535353;
         color: white;
-     
+        
         justify-content: center;
         align-items: center;
     }
@@ -342,302 +331,5 @@
         
     }
 
-      
-}
-
-@media screen and (max-width: 300px){
-    .resume {
-        width: 100%;
-        height: 100%;
-        
-    }
-    body{
-        width:100%;
-        height: 100%;
-    }
-    header{
-        text-align: center;
-        margin-left: 2.5rem;
-    }
-    h1{
-    
-        font-size:3rem;
-        font-family: 'Shrikhand', cursive;
-        margin-bottom: 2em;
-    
-    }
-    .info{
-        background-color:#f0efef;
-   
-        padding: 80px;
-        display: flex;
-        height: 100%;
-        width: 100%;
-        justify-content:space-around;
-        -webkit-box-align: center;
-        -webkit-box-direction: normal;
-        align-items: center;
-        flex-direction: column;
-    }
-    h2{
-        
-        margin-left:-5.5rem;
-        margin-right: -5.5rem;
-    }
-    h3{
-        margin-top: .5em;
-    }
-
-    .button{
-        margin-top: -.5rem;
-    }
-    section .fonctionnement-list{
-        margin-top: .7rem;
-        margin-left:1.7rem;
-        list-style: none;
-        height:auto;
-    
-    }
-    footer{
-        width: 100%;
-        padding:60px;
-
-
-    }
-    ul.footer_list{
-        
-        font-size: .8rem;
-    }
-    footer li{
-        font-size:2em;
-        
-        
-    }
 
 }
-
-/*
-@media screen and (min-width: 300px){
-
-    .resume {
-        width: 100%;
-        height: 100%;
-            
-    }
-    header{
-        text-align: center;
-    
-    }
-    h1{
-    
-        font-family: 'Shrikhand', cursive;
-            
-    }
-    section.info{
-        width: 450px;
-        height: 30vh;
-    }
-
-    .info{
-        background-color:#f0efef;
-        
-        padding:20px;
-        display: flex;
-        justify-content:space-around;
-        -webkit-box-align: center;
-        -webkit-box-direction: normal;
-        align-items: center;
-        flex-direction: column;
-    }
-    .button{
-        margin-top: -.5rem;
-    }
-    section .fonctionnement-list{
-        margin-top: 1rem;
-        margin-left:4rem;
-        list-style: none;
-        height:auto;  
-            
-    }
-   
-    a.button.Fonctionnement {
-        margin-top: 1em;
-        margin-bottom: 1rem;
-        justify-content: space-between;
-    }
-
-    img#img_restaurant1{
-        height: 300px;
-        width:445px;
-    } 
-    footer{
-        padding:10px;
-
-    }
-    footer li{
-        font-size: 2em;
-        line-height: -.1em;
-    }
-        
-}
-*/
-@media screen and (max-width: 700px){
-    .resume {
-        width: auto;
-        height: 100%;
-        word-wrap: break-word;
-    }
-
-    h1{
-        font-size: 3rem;
-    }
-
-    .info{
-        margin-top: .2em;
-        padding: 12px;
-        height:25vh;
-    }
-
-    h2{
-        margin-top: -2.5rem;
-        height: 4vh;
-        padding: 12px;
-
-    }
-
-    h3{
-       font-size:1.5em;
-    }
-
-    .info h3{
-        margin-top: -.2em;
-        margin-bottom: 1.8em;
-    }
-
-    .info p{
-        margin-top: -1.2em;
-        font-size: 1.5em;
-    }
-
-    .info .button{
-        margin-top:-.2em;
-    }
-
-    section.fonctionnement{
-        margin-top:-.5em;
-    }
-
-    div.step.step1{
-        margin-top:-1em;
-        margin-bottom: .8em;
-    }
-
-    div.step.step3{
-        margin-top:.8em;
-        margin-bottom: -.5em;
-        
-    }
-   
-
-    div.number{
-        margin-left: -10rem;
-    }
-
-    section.fonctionnement-list{
-        display:list-item;
-        text-align: left;
-        list-style: none;
-        height: 15vh;
-        margin: 0;
-         
-    }
-
-    section .fonctionnement-list div{
-        margin-bottom:0;
-    }
-    
-    main {
-        margin-top: 6rem;
-        text-align: left;
-        display: list-item;
-
-    }
-
-    img#img_restaurant1{
-        height: 300px;
-        width:445px;
-    }
-
-    .container-grid {
-        margin-top: -1rem;
-        display: list-item;
-    }
-
-    h4{
-        margin-top:-.8em;
-    
-    }
-    .main h3{
-        margin-top: -.5em;
-    }
-    .main p{
-        margin-top: -1.2em;
-    }
-    main.main{
-        margin-bottom: 1rem;
-    }
-    
-
-    footer{
-        height: 25vh;
-    }
-    footer h5{
-        
-        text-align:left;
-        font-size:2em;
-        margin-left: 1rem;
-    }
-    
-    footer .footer_list{
-        
-        text-align: left;
-        display: list-item;
-        margin-left:-2.5em;
-        margin-top:-1.5em;
-    
-    }
-    li{
-        font-size: 1rem;
-        margin-left:.5rem;
-    }
-    
-    footer .footer_list .fa-1x{
-        font-size: .7em;
-    }
-    
-}
-
-@media screen and (min-width:1200px){
-    .resume {
-        width: auto;
-        height: 100%;
-        word-wrap: break-word;
-    }
-
-    h2{
-        height: 6vh;
-        margin-top:-1em;
-    }
-
-    a.button.Fonctionnement{
-        width: 40vh;
-        margin-left:-3rem;
-    }
-    
-
-   
-
-} 
-
-
-
