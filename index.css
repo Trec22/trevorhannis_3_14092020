@@ -622,7 +622,143 @@
         
     }
 
+}
 
+@media screen and (min-width: 700px){
+    
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .info{
+        margin-top: .2em;
+        padding: 12px;
+        height:25vh;
+    }
+
+    h2{
+        margin-top: -2.5rem;
+        height: 4vh;
+        padding: 12px;
+
+    }
+
+    h3{
+       font-size:1.5em;
+    }
+
+    .info h3{
+        margin-top: -.2em;
+        margin-bottom: 1.8em;
+    }
+
+    .info p{
+        margin-top: -1.2em;
+        font-size: 1.5em;
+    }
+
+    .info .button{
+        margin-top:-.2em;
+    }
+
+    section.fonctionnement{
+        margin-top:-.5em;
+    }
+
+    div.step.step1{
+        margin-top:-1em;
+        margin-bottom: .8em;
+    }
+
+    div.step.step3{
+        margin-top:.8em;
+        margin-bottom: -.5em;
+        
+    }
+   
+
+    div.number{
+        margin-left: -10rem;
+    }
+
+    section.fonctionnement-list{
+        display:list-item;
+        text-align: left;
+        list-style: none;
+        height: 15vh;
+        margin: 0;
+         
+    }
+
+    section .fonctionnement-list div{
+        margin-bottom:0;
+    }
+    
+    main {
+        margin-top: 6rem;
+        text-align: left;
+        display: list-item;
+
+    }
+
+    img#img_restaurant1{
+        height: 300px;
+        width:445px;
+    }
+
+    .container-grid {
+        margin-top: -1rem;
+        display: list-item;
+    }
+
+    h4{
+        margin-top:-.8em;
+    
+    }
+    .main h3{
+        margin-top: -.5em;
+    }
+    .main p{
+        margin-top: -1.2em;
+    }
+    main.main{
+        margin-bottom: 1rem;
+    }
+    
+
+    footer{
+        height: 25vh;
+    }
+    footer h5{
+        
+        text-align:left;
+        font-size:2em;
+        margin-left: 1rem;
+    }
+    
+    footer .footer_list{
+        
+        text-align: left;
+        display: list-item;
+        margin-left:-2.5em;
+        margin-top:-1.5em;
+    
+    }
+    li{
+        font-size: 1rem;
+        margin-left:.5rem;
+    }
+    
+    footer .footer_list .fa-1x{
+        font-size: .7em;
+    }
+    
 }
 
     
