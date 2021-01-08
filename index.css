@@ -334,9 +334,56 @@
         
     }
 
+@media screen and (min-width: 1200px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    .info .button {
+        margin-left:31rem;
+    }
+    .fonctionnement h3{
+        font-size:1.8em;
 
+    }
+    section div{
+        margin-left: 4rem;
+        display:inline-flex;
+        justify-content: space-between;
 
+    }
+    
+    div a.button.Fonctionnement{
+        margin-top:2rem;
+        margin-left:-7.5em;
+        width:25vh;
+    }
+    article.restaurants{
+        width: auto;
+    }
+}
 
+@media screen and (max-width: 700px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
+    
+}
+    
 
 
     
