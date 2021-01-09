@@ -15,7 +15,7 @@ h1{
 }
 section.info{
     background:rgb(240,239,239);
-    height:35vh;
+    
 }
 
 h2{
@@ -65,7 +65,7 @@ p{
     display: inline-block;
     font-size: 16px;
     border-radius: 2rem;
-    margin-left:41rem;
+    
 }
 
 section.fonctionnement{
@@ -172,16 +172,17 @@ div a.button.Fonctionnement{
 }
 
 section.fonctionnement-list{
-    display:block;
+    display:flex;
+    flex-direction: column;
     text-align:center;
-    list-style: none;
-    height: 18vh;
+    margin-top:20px;
+    margin-bottom: 20px;
     margin-right: 1em;
     margin-left:1em; 
 }
 
 section .fonctionnement-list div{
-    margin-bottom:0;
+    margin-bottom:20px;
 }
 
 main.main{
@@ -238,13 +239,6 @@ article a.button{
     margin-top: 2rem;
     z-index: 2;
     
-}
-
-#img_restaurant1{
-    
-    height: 430px;
-    width: 620px;
-    margin-left:.1rem;
 }
 
 img{
@@ -343,12 +337,16 @@ li{
 
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
     .resume {
         width: auto;
         height: 100%;
         word-wrap: break-word;
         
+    }
+    
+    .container-grid{
+        grid-template-columns: 1fr;
     }
 
 }
