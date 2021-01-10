@@ -68,10 +68,10 @@ p{
     
 }
 
-section.fonctionnement{
+/*section.fonctionnement{
     display:flex;
         
-}
+}*/
 
 .fonctionnement h3{
     text-align: left;
@@ -348,7 +348,12 @@ li{
     .container-grid{
         grid-template-columns: 1fr;
     }
+    
+    footer .footer_list{
+        display:flex;
+        flex-direction: column;
 
+    }
 }
 
 @media screen and (max-width: 300px){
