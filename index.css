@@ -55,17 +55,24 @@ p{
     text-align: center;
 }
 
-.button {
+.info a.button{
+    margin-left: 43%;
+}
+
+.button{
     background-color: rgb(214, 13, 214);
     border: none;
     color: white;
     padding: 10px;
-    text-align: center;
+
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 2rem;
     
+}
+.info.button{
+    text-align: center;
 }
 
 /*section.fonctionnement{
@@ -310,6 +317,11 @@ footer .footer_list{
     list-style: none;
     display: inline-flex;
     align-items: flex-start;
+    margin-left:rem;
+}
+
+ul.footer_list{
+   margin-left:6rem;
 }
 
 .fa-utensils:before{
@@ -344,6 +356,10 @@ li{
         word-wrap: break-word;
         
     }
+
+    .info a.button{
+        margin-left: 35%;
+    }
     
     .container-grid{
         grid-template-columns: 1fr;
@@ -362,6 +378,9 @@ li{
         height: 100%;
         word-wrap: break-word;
         
+    }
+    .info a.button{
+        margin-left: 30%;
     }
     
 }
