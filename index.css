@@ -57,6 +57,7 @@ p{
 
 .info a.button{
     margin-left: 43%;
+    margin-bottom: 2rem;
 }
 
 .button{
@@ -143,8 +144,7 @@ div.step.step1{
 }
 
 div.step.step3{
-    margin-top:.8em;
-        
+    
 }
 
 
