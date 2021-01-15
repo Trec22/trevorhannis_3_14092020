@@ -209,6 +209,7 @@ main article {
     background-color: white;
     margin-bottom: 1.5em;
     margin-right: 1em;
+    flex-basis: 45%;
 
 }
 
@@ -267,6 +268,8 @@ h4{
 
 article.restaurants{
     display:flex;
+    cursor:pointer;
+    box-shadow:12px 12px 2px 1px rgba(100, 100, 102, 0.2);
 }
 
 .main p{
@@ -351,7 +354,6 @@ li{
     }
 }
 
-
 @media screen and (min-width: 1200px){
     .resume {
         width: auto;
@@ -359,6 +361,18 @@ li{
         
     }
 
+}
+
+@media screen and (min-width: 1000px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    li{
+        font-size:1.2em;
+        display:block;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -380,8 +394,21 @@ li{
     footer .footer_list{
         display:flex;
         flex-direction: column;
+    }
+
+    h5{
+        text-align:left;
+    
 
     }
+
+    li{
+        font-size:1.7rem;
+        margin-left:-10rem;
+        margin-bottom:.5em;
+        
+    }
+
 }
 
 @media screen and (max-width: 400px){
@@ -397,9 +424,14 @@ li{
     div.number{
         margin-left: -4rem;
     }
+
+    h5{
+        text-align:left;
+    }
+
     li{
         font-size:1.5rem;
-        margin-left:-8rem;
+        margin-left:;
     }
     
 }
