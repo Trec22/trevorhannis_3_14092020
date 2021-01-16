@@ -323,9 +323,7 @@ footer .footer_list{
 
 }
 
-ul.footer_list{
-   margin-left:10em;
-}
+
 
 .fa-utensils:before{
     margin-right: 1em;
@@ -424,7 +422,7 @@ li{
 
     li{
         font-size:1.7rem;
-        margin-left:-10rem;
+        margin-left:-8rem;
         margin-bottom:.5em;
         
     }
