@@ -346,8 +346,14 @@ li{
 .fa-arrow-left:before{
     content: "\f060";
 }
+.site {
+    width: 75%;
+    margin:auto;
+}
+.header.retour a span{
+    font-size: 1.5rem;
 
-menu
+}
 
 @media screen and (min-width: 1800px){
     .resume {
