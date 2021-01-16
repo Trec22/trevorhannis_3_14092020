@@ -351,7 +351,7 @@ li{
     }
     li{
         
-        margin-left:4rem;
+        margin:8rem;
     }
 
 }
@@ -361,6 +361,11 @@ li{
         width: auto;
         height: 100%;
         
+    }
+    
+    li{
+        
+        margin:4rem;
     }
 
 }
