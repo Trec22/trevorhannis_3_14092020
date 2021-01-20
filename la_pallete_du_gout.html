@@ -4,48 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/adf4fe6b14.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="index2.css" />
+
+    <link rel="stylesheet" href="restaurants.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
     
-    <title>OhMyfood |A la Française</title>
+    <title>OhMyfood |La Pallette du Goût</title>
 </head>
 <body>
 
     <section class="site">
         <header class="header">
             <div class="retour">
-                <a href="index.html"><span class="fas fa-arrow-left fa-1x" title="revenir a l'acceuil"><span></a>
+                <a href="index.html"><span class="fas fa-arrow-left fa-1x" title="revenir a l'acceuil"></span></a>
             </div>
             <h1 class="site__title">ohmyfood</h1>
         </header>
 
         <main class="menu__main">
-            <header class="image méricourt">
-                <img src="images z/restaurants zozor/image2.jpg"alt="Photo Restaurant">
+            <header class="image la Pallette du goût">
+                <img id="img_restaurant1" src="images z/restaurants zozor/image1.jpg"alt="Photo Restaurant">
             </header>
             <section class="menu">
                 <header>
-                    <h2>Folie-Méricourt</h2>
+                    <h2>La Pallette du Goût</h2>
                     <div class="J'aime">
-                        <input type="checkbox" name="checkbox" id="checkbox1" class="checkbox">
-                        <label for="checkbox1" class="far-heart"><span class="far fa-heart fa-1x"></span></label>
-                        <label for="checkbox1" class="fas-heart"><span class="fas fa-heart fa-1x"></span></label>
+                        <section><div class="coeur"><i class="far fa-heart"></i></div>
+                            <div class="coeur2"><i class="fas fa-heart
+                            fa-gradient"></i></div>
+                        </section>    
                     </div>
                 </header>
-                <!-- Menus to order  -->
+                <!-- Menus to order -->
                 <section class="menu">
                     <h2 class="menu__title">
-                        Entrees
+                        ENTREES
                     </h2>
                     <article class="menu__item item1">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Crevettes-Coquilles Normandes</h3>
-                                <p> zest Jus Tropicale</p>
+                                <h3>Citrus Squid Carpaccio</h3>
+                                <p>Avec orange zest</p>
                             </div>
                             <div class="menu__item__price">
-                                35€
+                                25€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -55,11 +56,11 @@
                     <article class="menu__item item2">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Cornets de Jambon</h3>
-                                <p>Haricots verts,Petite pois,Asperges sauce Hollandaise</p>
+                                <h3>Grandmother's Vegetables Soup</h3>
+                                <p>Carrots, parsnips, Jerusalem artichoke</p>
                             </div>
                             <div class="menu__item__price">
-                                40€
+                                35€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -69,11 +70,11 @@
                     <article class="menu__item item3">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Soup a L'anglaise</h3>
-                                <p>Avec légumes Exotiques</p>
+                                <h3>Onion Soup</h3>
+                                <p>Revisited</p>
                             </div>
                             <div class="menu__item__price">
-                                35€
+                                20€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -83,16 +84,16 @@
                 </section>
                 <section class="menu">
                     <h2 class="menu__title">
-                        Plat de Résistance
+                        MAIN DISH
                     </h2>
                     <article class="menu__item item4">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Escalopes Princesse</h3>
-                                <p>Avec Riz à L'espagnole </p>
+                                <h3>Scallops</h3>
+                                <p>Avec mashed parsnip</p>
                             </div>
                             <div class="menu__item__price">
-                                35€
+                                40€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -102,8 +103,8 @@
                     <article class="menu__item item5">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Calamar Farçi</h3>
-                                <p>Avec Riz Antilles </p>
+                                <h3>Magret de canard</h3>
+                                <p>Avec mashed potatoes</p>
                             </div>
                             <div class="menu__item__price">
                                 35€
@@ -116,11 +117,11 @@
                     <article class="menu__item item6">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Rôti à L'italienne</h3>
-                                <p>Avec Roasted Veggies</p>
+                                <h3>Game hen</h3>
+                                <p>Avec white vegetable gnocchis</p>
                             </div>
                             <div class="menu__item__price">
-                                50€
+                                44€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -130,16 +131,16 @@
                 </section>
                 <section class="menu">
                     <h2 class="menu__title">
-                       Desserts
+                       DESSERTS
                     </h2>
                     <article class="menu__item item7">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Ice Cream des Tropique</h3>
-                                <p>Avec Pistache</p>
+                                <h3>Floral Ice Cream</h3>
+                                <p>Avec hazelnut butter</p>
                             </div>
                             <div class="menu__item__price">
-                                15€
+                                18€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -149,11 +150,11 @@
                     <article class="menu__item item8">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Mont-Blanc Gateau</h3>
-                                <p>Antilles</p>
+                                <h3>Chocolate Lava Cake</h3>
+                                <p>revisited</p>
                             </div>
                             <div class="menu__item__price">
-                                20€
+                                22€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -163,11 +164,11 @@
                     <article class="menu__item item9">
                         <div class="menu__item__description">
                             <div class="menu__item__description__text">
-                                <h3>Le Gâteau au coco</h3>
-                                <p>Avec Confiture coco Maison</p>
+                                <h3>Napolean</h3>
+                                <p>Avec blueberries and marzipan</p>
                             </div>
                             <div class="menu__item__price">
-                                20€
+                                23€
                             </div>
                         </div>
                         <div class="menu__item__selected">
@@ -175,16 +176,16 @@
                         </div>
                     </article>
                 </section>
-                <!-- button  de command -->
+                <!-- button order -->
                 <div class="button__order">
-                    <button class="intro__action order">Order</button>
+                    <a class="button" href="formules.html"><strong>Order</strong></a>
                 </div>
             </section>
         </main>
         <footer class="footer">
-            <h2 class="footer__title">ohmyfood</h2>
+            <h2 class="footer_title">ohmyfood</h2>
             <div class="row">
-            <ul class="footer__list">
+            <ul class="footer_list">
                 <li><span class="fas fa-utensils"></span>Proposer un Restaurant</li>
                 <li><span class="fas fa-hands-helping"></span>Devenir partenaire</li>
                 <li>Mentions légales</li>
@@ -194,5 +195,4 @@
         </footer>
     </section>
 </body>
-
 

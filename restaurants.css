@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    width:75%;
+    height: 100%;
+    margin:10rem
+
+}
+header{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+
+h1{
+    display:block;
+    font-size:3rem;
+    font-family: 'shrikhand',cursive;
+    text-align:left;
+    margin-left:-15rem;
+}
+
+.menu header h2{
+    font-family: "shrikhand",cursive;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left:2rem;
+}
+
+.fa-arrow-left:before{
+    margin-top:2.5rem;
+    font-size: 2rem;
+    display: inline-block;
+}
+img{
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    width:150%;
+    height:auto;
+
+}
+
+.header.retour a span{
+    font-size: 1.5rem;
+
+}
+.fa-heart{
+    position:right;
+}
+
+/*animation de coeur*/
+.coeur{
+    
+    cursor:pointer;
+    opacity:0;
+    transform-origin:bottom;
+    opacity:1;
+    top:2.5rem;
+    font-size:1.5rem;
+    color:#000;
+    
+}
+
+.coeur2{
+    position:absolute;
+    cursor:pointer;
+    opacity:0;
+    transform-origin:bottom;
+    top:2.5rem;
+    font-size:1.5rem;
+}
+
+.coeur2:hover{
+    opacity:1;
+    transition:opacity 1.6s;
+    color: blueviolet;
+}
+
+.fa-heart{
+    font-size:40px;
+}
+.coeur .coeur2:hover{
+    display:none;
+}
+
+section.menu{
+    background-color: rgb(240,239,239);
+    border-radius: 20px 20px 0 0;
+    width: 75%;
+
+}
+
+
+
+
+
+
+
+
+a.button{
+    background-color: rgb(214, 13, 214);
+    border: none;
+    color: white;
+    padding:2%;
+    width: 6rem;
+    box-shadow: 0 0 3px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius:2rem;
+    
+}
+
+div.button__order{
+    text-align: center;
+    margin-bottom:2rem;
+    margin-top:2rem;
+
+}
+
+footer{
+    background:#535353;
+    color: white;
+    width: 75%;
+}
+
+footer h2{
+    font-family:'Shrikhand', cursive;
+    text-align: center;
+    font-size:2rem;
+}
+
+.footer .footer_list{      
+    margin-top: -1rem;
+    justify-content: space-around;
+    list-style: none;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.fa-utensils:before{
+    margin-right: 1em;
+    margin-top: 1.5em;
+}
+
+.fa-hands-helping:before{
+    margin-right:1rem;
+}
+
+
+li{
+    text-align: center;
+    font-size: 1em;
+    margin-right: 2em;
+    
+}

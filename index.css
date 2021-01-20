@@ -9,9 +9,10 @@
 
 h1{
     display:block;
-    font-size: 3rem;
+    font-size:2.5rem;
     font-family: 'shrikhand',cursive;
     text-align:center;
+    margin-bottom: 1em;
 }
 section.info{
     background:rgb(240,239,239);
@@ -82,7 +83,7 @@ p{
 }*/
 
 .fonctionnement h3{
-    text-align: left;
+    text-align: center;
     margin-top: .5em;
     margin-left:1em;
 }
@@ -143,10 +144,6 @@ div.step.step1{
     margin-bottom:.8em;
 }
 
-div.step.step3{
-    
-}
-
 
 div.number{
     margin-left: -7rem;
@@ -179,8 +176,6 @@ div a.button.Fonctionnement{
 }
 
 section.fonctionnement-list{
-    display:flex;
-    flex-direction: column;
     text-align:center;
     margin-top:20px;
     margin-bottom: 20px;
@@ -277,23 +272,43 @@ article.restaurants{
     margin-left:3rem;
 }
 
-.fa-heart-o:hover{
-
-    margin-left: 20rem;
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:rgb(248, 248, 242);
-    -webkit-text-fill-color: transparent;
+/*animation de coeur*/
+.coeur{
+    position:absolute;
+    cursor:pointer;
+    opacity:0;
+    transform-origin:bottom;
+    opacity:1;
+    top:2.5rem;
+    font-size:1.5rem;
+    color:#000;
+    
 }
 
-.fa-heart-o:hover{
+.coeur2{
+    position:absolute;
+    cursor:pointer;
+    opacity:0;
+    transform-origin:bottom;
+    top:2.5rem;
+    font-size:1.5rem;
+}
+
+.coeur2:hover{
+    opacity:1;
+    transition:opacity 1.6s;
     color: blueviolet;
-    text-decoration: none;
-    top:-40px;
-    background:-webkit-radial-gradient(ellipse,blueviolet 4%,fb7aec 75%,blueviolet);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:blueviolet;
-
 }
+
+.fa-heart{
+    font-size:40px;
+}
+.coeur .coeur2:hover{
+    display:none;
+}
+
+
+
 
 footer{
     background:#535353;
@@ -336,20 +351,22 @@ footer .footer_list{
 }
 
 li{
+    text-align: center;
     font-size: 2em;
     margin-right: 2em;
     
 }
 
-.fa-arrow-left:before{
-    content: "\f060";
-}
-.site {
-    width: 75%;
-    margin:auto;
-}
-.header.retour a span{
-    font-size: 1.5rem;
+@media screen and (min-width:2200px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    footer .footer_list{
+        margin-left:8rem;
+        
+    }
 
 }
 
@@ -359,13 +376,24 @@ li{
         height: 100%;
         
     }
-    li{
-        
-        margin:8rem;
+    footer .footer_list{
+        margin-left:8rem;
+
     }
 
 }
 
+@media screen and (min-width: 1500px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    
+    footer .footer_list{
+        margin-left:10%;
+    }
+} 
 
 @media screen and (min-width: 1200px){
     .resume {
@@ -381,16 +409,57 @@ li{
 
 }
 
+@media screen and (min-width: 1100px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    h5{
+
+        margin-top:-2rem;
+        margin-bottom:1rem;
+    }
+    footer{
+        padding:3rem;
+    }
+    footer .footer_list{
+        margin-left:;
+
+    } 
+}
+
 @media screen and (min-width: 1000px){
     .resume {
         width: auto;
         height: 100%;
         
     }
+    section.info{
+        width:100%;
+    }
     li{
         font-size:1.2em;
         display:block;
     }
+}
+
+@media screen and (min-width: 950px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    footer{
+        padding:2rem;
+    }
+    h5{
+        margin-bottom:.3em;
+    }
+    li{
+        font-size:1.2em;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -412,21 +481,34 @@ li{
     footer .footer_list{
         display:flex;
         flex-direction: column;
+        margin-left:10rem;
+
+        
     }
 
     h5{
+        margin-left:2em;
+        margin-bottom: .5em;
         text-align:left;
     
-
     }
 
     li{
-        font-size:1.7rem;
+        font-size:1.2rem;
         margin-left:-8rem;
         margin-bottom:.5em;
         
     }
 
+}
+
+@media screen and (max-width: 750px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -440,7 +522,7 @@ li{
         margin-left:28%;
     }
     div.number{
-        margin-left: -4rem;
+        margin-left:-8em;
     }
 
     h5{
@@ -449,8 +531,32 @@ li{
 
     li{
         font-size:1.5rem;
-        margin-left:;
+    
     }
     
 }
+@media screen and (max-width: 350px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
+}
 
+@media screen and (max-width:250px){
+    .resume {
+        width: auto;
+        height:100%;
+        word-wrap: break-word;
+        
+    }
+    section.info{
+        width: 100%;
+        margin:0;
+    }
+    footer{
+        margin:0;
+    }
+    
+}
