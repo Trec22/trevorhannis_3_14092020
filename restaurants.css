@@ -89,10 +89,21 @@ section.menu{
     width: 75%;
 
 }
+.menu__main .menu .menus{
+    margin-top:20px;
+}
+.menu .menus{
+    width: 45%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #c4c4c4;
+    padding: 20px;
+    display:block;
+}
 
-
-
-
+.menus__item .menus__item__description
+.menus__item__description__text{
+    flex-basis: 70%;
+}
 
 
 
