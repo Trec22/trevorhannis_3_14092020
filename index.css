@@ -138,6 +138,9 @@ section div{
 section.fonctionnement{
     margin-top:-.5em;
 }
+.step{
+    display:flex;
+}
 
 div.step.step1{
     
@@ -177,6 +180,7 @@ div a.button.Fonctionnement{
 
 section.fonctionnement-list{
     text-align:center;
+    display:flex;
     margin-top:20px;
     margin-bottom: 20px;
     margin-right: 1em;
@@ -275,8 +279,9 @@ article.restaurants{
 /*animation de coeur*/
 .container_coeur{
     position:absolute;
-    bottom: 0;
-    right: 0;
+
+    top:80%;
+    right: 20%;
 }
 .coeur{
     position:absolute;
@@ -477,6 +482,13 @@ li{
         word-wrap: break-word;
         
     }
+
+    section.fonctionnement-list{
+        flex-direction: column;
+        width: 280px;
+        align-items:center;
+    }
+    
 
     .info a.button{
         margin-left: 35%;
