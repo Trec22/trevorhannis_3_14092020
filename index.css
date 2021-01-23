@@ -273,8 +273,14 @@ article.restaurants{
 }
 
 /*animation de coeur*/
+.container_coeur{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
 .coeur{
     position:absolute;
+    bottom: 0;
     cursor:pointer;
     opacity:0;
     transform-origin:bottom;
@@ -306,6 +312,8 @@ article.restaurants{
 .coeur .coeur2:hover{
     display:none;
 }
+
+
 
 
 

@@ -148,17 +148,31 @@ a.button{
     background-color: rgb(214, 13, 214);
     border: none;
     color: white;
-    padding:2%;
+    padding:3%;
     width: 6rem;
     box-shadow: 0 0 3px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     border-radius:2rem;
-    
+    animation: animate 1s linear infinite;
+    overflow: hidden;
 }
-
+@keyframes animate{
+    0%{
+        width: 8rem;
+        height: 0px;
+        opacity: 0.5;
+        text-align: center;
+        
+    }
+    100%{
+        width: 6rem;
+        height: 0px;
+        opacity: 0;
+    }
+}
 div.button__order{
     text-align: center;
     margin-bottom:2rem;
