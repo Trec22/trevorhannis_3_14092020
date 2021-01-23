@@ -485,8 +485,7 @@ li{
 
     section.fonctionnement-list{
         flex-direction: column;
-        width: 280px;
-        align-items:center;
+        width: 250px;
     }
     
 
