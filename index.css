@@ -145,14 +145,11 @@ section.fonctionnement{
 div.step.step1{
     
     margin-bottom:.8em;
-}
-
-
-div.number{
-    margin-left: -7rem;
+    
 }
 
 .number{
+    margin-left: -7rem;
     margin-right: 1.5em;
     background-color: blueviolet;
     padding: 10px;
@@ -435,10 +432,6 @@ li{
     }
     footer{
         padding:3rem;
-    }
-    footer .footer_list{
-        margin-left:;
-
     } 
 }
 
@@ -529,6 +522,14 @@ li{
         
     }
 }
+@media screen and (max-width: 600px){
+    .container_coeur{
+        position:absolute;
+    
+        top:73%;
+        right: 20%;
+    }
+        
 
 @media screen and (max-width: 400px){
     .resume {
@@ -563,7 +564,7 @@ li{
     }
 }
 
-@media screen and (max-width:250px){
+@media screen and (max-width:300px){
     .resume {
         width: auto;
         height:100%;
@@ -573,6 +574,12 @@ li{
     section.info{
         width: 100%;
         margin:0;
+    }
+    .container_coeur{
+        position:absolute;
+    
+        top:60%;
+        right: 20%;
     }
     footer{
         margin:0;
