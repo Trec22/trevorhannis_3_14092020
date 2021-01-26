@@ -83,9 +83,9 @@ p{
 }*/
 
 .fonctionnement h3{
-    text-align: center;
+    margin-left:-23rem;
     margin-top: .5em;
-    margin-left:1em;
+    
 }
 
 section div{
@@ -137,9 +137,11 @@ section div{
 
 section.fonctionnement{
     margin-top:-.5em;
+    margin-left:20rem;
 }
 .step{
-    display:flex;
+    text-align: center;
+    
 }
 
 div.step.step1{
@@ -181,7 +183,8 @@ section.fonctionnement-list{
     margin-top:20px;
     margin-bottom: 20px;
     margin-right: 1em;
-    margin-left:1em; 
+    margin-left:1em;
+    display: inline-flex; 
 }
 
 section .fonctionnement-list div{
@@ -276,10 +279,10 @@ article.restaurants{
 /*animation de coeur*/
 .container_coeur{
     position:absolute;
-
-    top:80%;
+    top:60%;
     right: 20%;
 }
+
 .coeur{
     position:absolute;
     bottom: 0;
@@ -318,8 +321,6 @@ article.restaurants{
 
 
 
-
-
 footer{
     background:#535353;
     color: white;
@@ -347,7 +348,6 @@ footer .footer_list{
     align-items: flex-start;
 
 }
-
 
 
 .fa-utensils:before{
@@ -399,7 +399,7 @@ li{
         height: 100%;
         
     }
-    
+
     footer .footer_list{
         margin-left:10%;
     }
@@ -413,7 +413,6 @@ li{
     }
     
     li{
-        
         margin:4rem;
     }
 
@@ -425,8 +424,14 @@ li{
         height: 100%;
         
     }
+    .container_coeur{
+        position:absolute;
+    
+        top:70%;
+        right: 20%;
+    }
+        
     h5{
-
         margin-top:-2rem;
         margin-bottom:1rem;
     }
@@ -434,6 +439,7 @@ li{
         padding:3rem;
     } 
 }
+
 
 @media screen and (min-width: 1000px){
     .resume {
@@ -444,6 +450,8 @@ li{
     section.info{
         width:100%;
     }
+    
+
     li{
         font-size:1.2em;
         display:block;
@@ -454,6 +462,15 @@ li{
     .resume {
         width: auto;
         height: 100%;
+        
+    }
+    .container_coeur{
+        position:absolute;
+        top:65%;
+        right: 20%;
+    }
+    section.fonctionnement-list{
+        display:flex;
         
     }
     footer{
@@ -483,7 +500,7 @@ li{
     
 
     .info a.button{
-        margin-left: 35%;
+        margin-left: 30%;
     }
     
     .container-grid{
@@ -494,8 +511,7 @@ li{
         display:flex;
         flex-direction: column;
         margin-left:10rem;
-
-        
+  
     }
 
     h5{
@@ -522,14 +538,14 @@ li{
         
     }
 }
+
 @media screen and (max-width: 600px){
     .container_coeur{
         position:absolute;
-    
         top:73%;
         right: 20%;
     }
-        
+}        
 
 @media screen and (max-width: 400px){
     .resume {
@@ -539,7 +555,7 @@ li{
         
     }
     .info a.button{
-        margin-left:28%;
+        margin-left:25%;
     }
     div.number{
         margin-left:-8em;
@@ -547,14 +563,16 @@ li{
 
     h5{
         text-align:left;
+        font-size: 2em;
     }
 
     li{
-        font-size:1.5rem;
+        font-size:1rem;
     
     }
     
 }
+
 @media screen and (max-width: 350px){
     .resume {
         width: auto;
@@ -577,7 +595,6 @@ li{
     }
     .container_coeur{
         position:absolute;
-    
         top:60%;
         right: 20%;
     }

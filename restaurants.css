@@ -19,12 +19,27 @@ h1{
     text-align:left;
     margin-left:-15rem;
 }
+header h2{
+    font-family:'shrikhand',cursive;
+}
 
-.menu header h2{
-    font-family: "shrikhand",cursive;
+.menus h2{
+    display: inline-block;
     font-size: 1.5rem;
-    font-style: italic;
-    margin-left:2rem;
+    position: relative;
+    padding-bottom: 12px;
+    margin-left:-11em;
+}
+.menu__main .menu
+.menus h2::after{
+    background-color: #99e2d0;
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left:0;
+    height: 4px;
+    border-radius: 4px;
+    content: "";
 }
 
 .fa-arrow-left:before{
@@ -48,6 +63,13 @@ img{
 
 
 /*animation de coeur*/
+
+.container_coeur{
+    position:absolute;
+    top:96%;
+    right:40%;
+}
+
 .coeur{
     position:absolute;
     cursor:pointer;
@@ -132,7 +154,7 @@ section.menu{
     text-overflow: ellipsis;
     overflow:hidden;
 }
-
+.menus__item
 .menus__item .menus__item__description
 .menus__item__price{
     display:flex;
@@ -143,6 +165,38 @@ section.menu{
     font-weight: 700;
     font-size: 1em;
     flex-basis: 30%;
+    cursor: pointer;
+}
+.fa-check-circle:before {
+    content: "\f058";
+}
+.menus__item
+.menus__item__order{
+    background-color: #99e2d0;
+    color: #fff;
+    -webkit-box-align: center;
+    align-items: center;
+    display:flex;
+    width: 0;
+    font-size:1.6em;
+    overflow: hidden;
+    -webkit-box-pack:center;
+    justify-content: center;
+    
+}
+
+
+
+.menus__item
+.menus__item__oder span{
+    transition: all .4s;
+    -webkit-font-smoothing:antialiased;
+    display: inline-block;
+    font-style:normal;
+    font-variant: normal;
+    text-rendering: auto;
+    
+
 }
 a.button{
     background-color: rgb(214, 13, 214);
