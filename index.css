@@ -77,22 +77,98 @@ p{
     text-align: center;
 }
 
-/*section.fonctionnement{
-    display:flex;
-        
-}*/
+
+/*...fonctionnement...*/
 
 .fonctionnement h3{
     margin-left:-10rem;
     margin-top: .5em;
     
 }
+.function {
+    /*display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+    grid-column-start: 2;*/
+    padding: 0 0 65px 0;
+    font-size: 1rem;
+    background: #f6f6f6;
+    -webkit-box-shadow: 3px 0px 3px #73737338 inset;
+    box-shadow: 3px 0px 3px #73737338 inset;
+    border-bottom: 5px solid #9356dc;
+}
 
-section div{
-    margin-left: 4rem;
-    display: inline-flex;
-    justify-content: space-between;
-    height: 7.5vh;
+.function__step {
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin:12px auto;
+    padding: 1.8rem 0 1.3rem 0;
+    background-color: #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width:50%;
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 3px 3px 10px #dedada;
+    box-shadow: 3px 3px 10px #dedada;
+    grid-column-start: 2;
+    margin-bottom:2rem;
+    
+}
+
+.function__step--number {
+    color: #fff;
+    background-color: #9356dc;
+    border: 1px solid #9356dc;
+    border-radius: 50%;
+    padding: 4px 8px 4px 8px;
+    margin: 0 1.5rem 0 -12px;
+}
+
+.function__step:hover {
+    background-color: #e4d5f6;
+    color: #000;
+    -webkit-box-shadow: 3px 3px 20px #c6bfbf;
+    box-shadow: 3px 3px 20px #c6bfbf;
+}
+
+.function__step:hover .function__step--icon {
+    color: #9356dc;
+}
+
+.function__step--title {
+    grid-column-start: 2;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.function__step--icon {
+    grid-column-start: 2;
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.function--title {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-family: "roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0 1rem 0;
+    background-color: #eaeaea;
+    -webkit-box-shadow: 3px 3px 3px #73737338 inset;
+    box-shadow: 3px 3px 3px #73737338 inset;
+}
+
+
+
+/*...Main...*/
+
+main.main{
+    background-color: rgb(240,239,239);
+    display: block;
 }
 
 .restaurants{
@@ -100,106 +176,6 @@ section div{
     flex-direction: column;
 }
 
-.fa-mobile-alt:before{
-    color:grey;
-    margin-left:-.5em;
-    margin-right: 1em;
-
-}
-
-.fa-mobile-alt:hover{
-    color:rgb(214, 13, 214);
-}
-
-.fa-list-ul:before{
-    color:grey;
-    margin-left:-.5em;
-    margin-right: 1em;
-    
-}
-
-.fa-list-ul:hover{
-    color:rgb(214, 13, 214);
-}
-
-.fa-store:before{
-    color:grey;
-    margin-left:-.5em;
-    margin-right: 1em; 
-    
-}
-
-.fa-store:hover{
-    color:rgb(214, 13, 214);
-    
-}
-
-
-section.fonctionnement{
-    margin-top:-.5em;
-    align-items: center;
-    margin-left:6rem;
-
-}
-.step{
-    text-align: center;
-    
-}
-
-div.step.step1{
-    
-    margin-bottom:.8em;
-    
-}
-
-.number{
-    margin-left: -7rem;
-    margin-right: 1.5em;
-    background-color: blueviolet;
-    padding: 10px;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    border-radius:50%;
-    color: white;
-}
-
-div a.button.Fonctionnement{
-    margin-left:-1rem;
-    margin-top: .5em;
-    color:black;
-    font-size: 16px;
-    line-height: 1.5;
-    justify-content: space-between;
-    background-color:#f0efef;
-    width:40vh;
-    height:4vh;
-    border: none;
-    padding:15px;
-    
-}
-
-section.fonctionnement-list{
-    text-align:center;
-    display:flex;
-    margin-top:20px;
-    margin-bottom: 20px;
-    -webkit-box-direction: normal;
-    -webkit-box-orient: vertical;
-    -webkit-box-align: center;
-    margin-right: 1em;
-    margin-left:1em;
-    display: inline-flex; 
-}
-
-section .fonctionnement-list div{
-    margin-bottom:20px;
-}
-
-main.main{
-    background-color: rgb(240,239,239);
-    display: block;
-}
 .main{
     background-color:#f0efef;           
 
@@ -448,14 +424,19 @@ li{
         padding:3rem;
     } 
 }
-
-
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px){
     .resume {
         width: auto;
         height: 100%;
         
     }
+    section.fonctionnement-list{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    
     section.info{
         width:100%;
     }
