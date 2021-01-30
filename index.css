@@ -186,7 +186,7 @@ section.fonctionnement-list{
     margin-bottom: 20px;
     -webkit-box-direction: normal;
     -webkit-box-orient: vertical;
-    
+    -webkit-box-align: center;
     margin-right: 1em;
     margin-left:1em;
     display: inline-flex; 
@@ -382,6 +382,14 @@ li{
         
     }
 
+}
+
+@media screen and (min-width: 1900px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
 }
 
 @media screen and (min-width: 1800px){
