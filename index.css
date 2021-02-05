@@ -569,9 +569,12 @@ li{
         width: 100%;
         margin:0;
     }
+    .info a.button{
+        margin-left:2.5em;
+    }
 
     .functionnement h3{
-        margin-left:.2rem;
+        margin-left:.1rem;
     }
     .container_coeur{
         position:absolute;
