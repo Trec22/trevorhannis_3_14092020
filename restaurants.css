@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
-    width:75%;
+    widows: 75%;
     height: 100%;
     margin:10rem;
     margin-top:-2rem;
    
 }
+
+
+img{
+    background-image: url(image1.jpg);
+    
+}
+
+.menu__main .image{
+    width: 110;
+    background-size: cover;
+    background-position: center;
+}
+
+
 header{
     display: grid;
     grid-template-columns:1fr 1fr;
@@ -35,8 +49,9 @@ header h2{
 .menu__main .menu{
     padding: 0 16px;
     margin-top:-50px;
-    border-radius: 40px 40px 0 0;
+    border-radius: 30px 30px 0 0;
     background-color:#f3f2f2;
+    
 }
 
 .menu{
@@ -64,9 +79,10 @@ header h2{
     font-size: 2rem;
     display: inline-block;
 }
+
 img{
     overflow: hidden;
-    border-radius: 20px 20px 0 0;
+    border-radius:0 0 20px 20px;
     position: relative;
     width:155%;
     height:auto;
@@ -201,12 +217,24 @@ section.menu{
     -webkit-box-align: center;
     align-items: center;
     display:flex;
-    width: 0;
-    font-size:1.6em;
     overflow: hidden;
     -webkit-box-pack:center;
     justify-content: center;
-    
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-radius: 0 1.5rem 1.5rem 0;
+    font-size: 10px;
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right;
+    visibility: hidden;
 }
 
 
@@ -226,15 +254,12 @@ a.button{
     background-color: rgb(214, 13, 214);
     border: none;
     color: white;
-    padding:3%;
-    width: 6rem;
-    box-shadow: 0 0 3px;
+    padding:10px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
     border-radius:2rem;
-    animation: animate 1s linear infinite;
     overflow: hidden;
 }
 @keyframes animate{
@@ -262,6 +287,7 @@ footer{
     background:#535353;
     color: white;
     width: 75%;
+    height: 30%;
     padding: 0 16px;
 }
 
