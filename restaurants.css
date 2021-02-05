@@ -8,6 +8,7 @@ body {
    
 }
 
+/*...image...*/
 
 img{
     background-image: url(image1.jpg);
@@ -15,11 +16,17 @@ img{
 }
 
 .menu__main .image{
-    width: 110;
-    background-size: cover;
-    background-position: center;
+    height:22rem;
+    background-position:center center;
 }
 
+img{
+    overflow: hidden;
+    border-radius:0 0 20px 20px;
+    position: relative;
+    width:155%;
+    height:auto;    
+}
 
 header{
     display: grid;
@@ -33,6 +40,7 @@ h1{
     text-align:left;
     margin-left:-15rem;
 }
+
 header h2{
     font-family:'shrikhand',cursive;
 }
@@ -45,17 +53,19 @@ header h2{
     margin-left:-11em;
 }
 
+
 /*.....Menu Block....*/
+
 .menu__main .menu{
     padding: 0 16px;
     margin-top:-50px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
     
 }
 
 .menu{
-    display:flex;
+    
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -73,28 +83,6 @@ header h2{
     border-radius: 4px;
     content: "";
 }
-
-.fa-arrow-left:before{
-    margin-top:4rem;
-    font-size: 2rem;
-    display: inline-block;
-}
-
-img{
-    overflow: hidden;
-    border-radius:0 0 20px 20px;
-    position: relative;
-    width:155%;
-    height:auto;
-    
-}
-
-.header.retour a span{
-    font-size: 1.5rem;
-
-}
-
-
 
 /*animation de coeur*/
 
@@ -139,6 +127,16 @@ img{
     display:none;
 }
 
+.fa-arrow-left:before{
+    margin-top:4rem;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.header.retour a span{
+    font-size: 1.5rem;
+
+}
 
 section.menu{
     background-color: rgb(240,239,239);
@@ -147,15 +145,16 @@ section.menu{
     padding: 0 16px;
 
 }
+
 .menu__main .menu .menus{
     margin-top:20px;
 }
+
 .menu .menus{
     width: 45%;
     border-radius: 15px;
     box-shadow: 0 0 20px #c4c4c4;
     padding: 20px;
-    display:block;
     text-align:center;
 }
 
@@ -210,6 +209,7 @@ section.menu{
 }
 
 /*animation de selection de prix*/
+
 .menus__item
 .menus__item__order{
     background-color: #99e2d0;
@@ -246,10 +246,10 @@ section.menu{
     display: inline-block;
     font-style:normal;
     font-variant: normal;
-    text-rendering: auto;
-    
+    text-rendering: auto;    
 
 }
+
 a.button{
     background-color: rgb(214, 13, 214);
     border: none;
@@ -262,6 +262,7 @@ a.button{
     border-radius:2rem;
     overflow: hidden;
 }
+
 @keyframes animate{
     0%{
         width: 8rem;
@@ -276,6 +277,7 @@ a.button{
         opacity: 0;
     }
 }
+
 div.button__order{
     text-align: center;
     margin-bottom:2rem;
