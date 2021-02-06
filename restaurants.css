@@ -16,7 +16,7 @@ img{
 }
 
 .menu__main .image{
-    height:22rem;
+    height:43em;
     background-position:center center;
 }
 
@@ -88,7 +88,7 @@ header h2{
 
 .container_coeur{
     position:absolute;
-    top:96%;
+    top:100%;
     right:40%;
 }
 
