@@ -85,7 +85,7 @@ p{
 /*...functionnement...*/
 
 .functionnement h3{
-    margin-left:-10rem;
+    /*margin-left:-10rem;*/
     margin-top: .5em;
     
 }
@@ -479,7 +479,7 @@ li{
         margin-left: 30%;
     }
     .functionnement h3{
-        margin-right:22rem;
+        /*margin-right:22rem;*/
     }
     .container-grid{
         grid-template-columns: 1fr;
