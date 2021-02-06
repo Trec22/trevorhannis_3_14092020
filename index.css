@@ -478,7 +478,9 @@ li{
     .info a.button{
         margin-left: 30%;
     }
-    
+    .functionnement h3{
+        margin-right:22rem;
+    }
     .container-grid{
         grid-template-columns: 1fr;
     }
@@ -577,11 +579,11 @@ li{
         margin:0;
     }
     .info a.button{
-        margin-left:2.5em;
+        margin-right:3.8rem;
     }
 
     .functionnement h3{
-        margin-left:.1rem;
+        margin-right:-3rem;
     }
     .container_coeur{
         position:absolute;
