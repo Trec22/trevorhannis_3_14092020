@@ -169,9 +169,16 @@ main.main{
     display: block;
 }
 
+.restaurants a:visited{
+    color:black;
+}
+
 .restaurants{
     display: flex;
     flex-direction: column;
+}
+.nom_restaurant{
+    position: relative;
 }
 
 .main{
@@ -212,7 +219,7 @@ main article {
                 
 }
     
-article a.button{
+article p.button{
     background-color: rgb(7, 197, 165);
     color: rgb(4, 134, 4);
     -webkit-border-radius: 4px;
@@ -250,6 +257,9 @@ article.restaurants{
     box-shadow:12px 12px 2px 1px rgba(100, 100, 102, 0.2);
 }
 
+.restaurants a{
+    text-decoration: none;
+}
 .main p{
     float: left;
     margin-left:3rem;
@@ -262,24 +272,25 @@ article.restaurants{
     right: 20%;
 }
 
-.coeur{
+.nom_restaurant .coeur{
     position:absolute;
     cursor:pointer;
     opacity:0;
     transform-origin:bottom;
     opacity:1;
-    top:2.5rem;
+    top:0;
     font-size:1.5rem;
     color:#000;
     
 }
 
-.coeur2{
+
+.nom_restaurant .coeur2{
     position:absolute;
     cursor:pointer;
     opacity:0;
     transform-origin:bottom;
-    top:2.5rem;
+    top:0rem;
     font-size:1.5rem;
 }
 
