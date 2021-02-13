@@ -63,7 +63,7 @@ header h2{
     font-size: 1.5rem;
     position: relative;
     padding-bottom: 12px;
-    margin-left:-11em;
+    /*margin-left:-11em;*/
 }
 
 
@@ -325,5 +325,5 @@ li{
     text-align: center;
     font-size: 1em;
     margin-right: 5em;
-    
+    padding:2rem;
 }
