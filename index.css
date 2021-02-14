@@ -177,9 +177,7 @@ main.main{
     display: flex;
     flex-direction: column;
 }
-.nom_restaurant{
-    position: relative;
-}
+
 
 .main{
     background-color:#f0efef;           
