@@ -73,8 +73,12 @@ header h2{
 .nom_restaurant{
     position: relative;
 }
+.nom_restaurant h2{
+    margin-left:1rem;
+}
 
 .menu__main .menu{
+    position: relative;
     padding: 0 0px;
     margin-top:-225px;
     border-radius: 40px 40px 0 0;
@@ -88,6 +92,34 @@ header h2{
     justify-content: space-around;
 
 }
+
+div.menus__item__description{
+    display:grid;
+    justify-content: space-between;
+
+}
+
+div.menus__item__price{
+    position: absolute;
+    right: 20%;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    justify-content: end;
+    font-weight:700;
+    font-size:1em;
+   
+    cursor: pointer;
+    transition: transform 0.5s ease-in;
+}
+
+
+
+
+
+
+
+
 
 
 .menu__main .menu
@@ -167,10 +199,7 @@ section.menu{
     text-align:center;
 }
 
-.menus__item .menus__item__description
-.menus__item__description__text{
-    /*flex-basis: 70%;*/
-}
+
 
 
 .menus__item{
@@ -208,15 +237,7 @@ section.menu{
 /*.menus__item
 .menus__item__description .menus__item__price{
     
-    -webkit-box-align: end;
-    align-items: flex-end;
-    -webkit-box-pack: end;
-    justify-content: end;
-    font-weight:700;
-    font-size:1em;
-   
-    cursor: pointer;
-    transition: transform 0.5s ease-in;
+    
 }*/
 
 .fa-check-circle:hover {
@@ -235,14 +256,14 @@ section.menu{
     overflow: hidden;
     -webkit-box-pack:center;
     justify-content: center;
-    position: absolute;
+    position:absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
     top: 0;
-    left:100%;
+    left:80%;
     width: 20%;
     height: 100%;
     border-radius: 0 1.5rem 1.5rem 0;
@@ -250,14 +271,14 @@ section.menu{
     -webkit-transform-origin: right;
     -ms-transform-origin: right;
     transform-origin: right;
-    visibility: hidden;
+    overflow: hidden;
     
 }
 
 
 
 .menus__item
-.menus__item__oder span{
+.menus__item__order span:hover{
    
     transition: all .5s;
     -webkit-font-smoothing:antialiased;
@@ -304,6 +325,7 @@ div.button__order{
 }
 
 footer{
+    position: relative;
     background:#535353;
     color: white;
     width: 75%;
@@ -340,4 +362,18 @@ li{
     font-size: 1em;
     margin-right: 5em;
     padding:2rem;
+}
+
+@media screen and (max-width:1360px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    
+    .menu__main .menu{
+        position: relative;
+        padding: 0 0px;
+        margin-top:-225px;
+    }
 }
