@@ -234,18 +234,33 @@ section.menu{
 
 /*.....price....*/
 
-/*.menus__item
-.menus__item__description .menus__item__price{
+.menus__item
+.menus__item__description .menus__item__price {
+    display:flex;
+    -webkit-box-align:end;
+    align-items:flex-end;
+    -webkit-box-pack:end;
+    justify-content:flex-end;
+    font-weight:700;
+    font-size:.9em;
+    flex-basis:30%;
     
-    
-}*/
+}
+
+
+/*..animation de selection de prix..*/
+
 
 .fa-check-circle:hover {
     content: "\f058";
     transition: transform 0.5s ease-in;
 }
 
-/*animation de selection de prix*/
+
+.menus__item:hover
+.menus__item__order{
+    width: 25%;
+}
 
 .menus__item
 .menus__item__order{
@@ -275,10 +290,8 @@ section.menu{
     
 }
 
-
-
 .menus__item
-.menus__item__order span:hover{
+.menus__item__order i:hover{
    
     transition: all .5s;
     -webkit-font-smoothing:antialiased;
@@ -288,6 +301,9 @@ section.menu{
     text-rendering: auto;    
 
 }
+
+
+ /*...btn de order... */
 
 a.button{
     background-color: rgb(214, 13, 214);
@@ -315,6 +331,7 @@ a.button{
         height: 0px;
         opacity: 0;
     }
+
 }
 
 div.button__order{
