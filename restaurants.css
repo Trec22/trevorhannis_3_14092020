@@ -47,10 +47,10 @@ header{
 }
 
 h1{
+    position: relative;
     display:block;
     font-size:3rem;
-    font-family: 'shrikhand',cursive;
-    
+    font-family: 'shrikhand',cursive; 
     margin-right:50rem;
     
 }
@@ -70,6 +70,7 @@ header h2{
 
 /*.....Menu Block....*/
 
+
 .nom_restaurant{
     position: relative;
 }
@@ -77,8 +78,9 @@ header h2{
     margin-left:1rem;
 }
 
+
 .menu__main .menu{
-    position: relative;
+    
     padding: 0 0px;
     margin-top:-225px;
     border-radius: 40px 40px 0 0;
@@ -93,14 +95,10 @@ header h2{
 
 }
 
-div.menus__item__description{
-    display:grid;
-    justify-content: space-between;
 
-}
 
 div.menus__item__price{
-    position: absolute;
+    position:absolute;
     right: 20%;
     -webkit-box-align: end;
     align-items: flex-end;
@@ -112,10 +110,6 @@ div.menus__item__price{
     cursor: pointer;
     transition: transform 0.5s ease-in;
 }
-
-
-
-
 
 
 
@@ -281,7 +275,7 @@ section.menu{
     left:80%;
     width: 20%;
     height: 100%;
-    border-radius: 0 1.5rem 1.5rem 0;
+    border-radius: 0 1.4rem 1.4rem 0;
     font-size: 20px;
     -webkit-transform-origin: right;
     -ms-transform-origin: right;
@@ -345,9 +339,8 @@ footer{
     position: relative;
     background:#535353;
     color: white;
-    width: 75%;
-    height: 30%;
-    padding: 0 16px;
+   
+    padding:1.5rem;
 }
 
 footer h2{
@@ -357,7 +350,7 @@ footer h2{
 }
 
 .footer .footer_list{      
-    margin-top: -1rem;
+    margin-top:16px;
     justify-content: space-around;
     list-style: none;
     display: inline-flex;
@@ -392,5 +385,26 @@ li{
         position: relative;
         padding: 0 0px;
         margin-top:-225px;
+    }
+
+    .footer .footer_list{
+        display: flex;
+        -webkit-box-pack:center;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-align: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction:row;
+        margin-bottom: 25px;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px){
+    .menu__main .image {
+        height: 65rem;
+        background-position: center center;
     }
 }
