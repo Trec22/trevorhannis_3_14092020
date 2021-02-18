@@ -82,7 +82,7 @@ header h2{
 .menu__main .menu{
     
     padding: 0 0px;
-    margin-top:-225px;
+    margin-top:-355px;
     border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
     
@@ -133,7 +133,7 @@ div.menus__item__price{
 .container_coeur{
     position:absolute;
     top:30%;
-    right:-60%;
+    right:-70%;
 }
 
 .coeur{
@@ -336,11 +336,11 @@ div.button__order{
 }
 
 footer{
-    position: relative;
+    position:absolute;
     background:#535353;
     color: white;
    
-    padding:1.5rem;
+    padding:0 85px;
 }
 
 footer h2{
@@ -374,6 +374,20 @@ li{
     padding:2rem;
 }
 
+@media screen and (min-width:1580px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    .menu__main .menu{
+    
+        padding: 0 0px;
+        margin-top:-330px;
+    }
+}
+
+
 @media screen and (max-width:1360px){
     .resume {
         width: auto;
@@ -381,12 +395,6 @@ li{
         
     }
     
-    .menu__main .menu{
-        position: relative;
-        padding: 0 0px;
-        margin-top:-225px;
-    }
-
     .footer .footer_list{
         display: flex;
         -webkit-box-pack:center;
@@ -399,6 +407,19 @@ li{
         margin-bottom: 25px;
     }
 
+}
+
+@media screen and (min-width:1190px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+    .menu__main .menu{
+    
+        padding: 0 0px;
+        margin-top:-250px;
+    }
 }
 
 
