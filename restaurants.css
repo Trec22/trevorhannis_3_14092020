@@ -349,7 +349,7 @@ footer h2{
 
 .fa-utensils:before{
     margin-right: 1em;
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
 }
 
 .fa-hands-helping:before{
@@ -364,3 +364,47 @@ li{
     padding:1.5rem;
 }
 
+@media screen and (max-width:1390px){
+    .site {
+        width: auto;
+        height: 100%;
+        
+    }
+    li{
+        text-align: center;
+        font-size: 1em;
+        margin-right: 5em;
+        padding:1.5rem;
+    }
+}
+
+@media screen and (min-width:1150px){
+    .site {
+        width: auto;
+        height: 100%;
+        
+    }
+    h1{
+        margin-right:50rem;
+    }
+    .menu__main .menu{
+    
+        padding: 0 0px;
+        margin-top:-350px;
+    }
+
+}
+
+@media screen and (max-width:900px){
+    .site {
+        width: auto;
+        height: 100%;
+        
+    }
+    li{
+        text-align: center;
+        font-size: 1em;
+        margin-right: 5em;
+        padding:1.5rem;
+    }
+}
