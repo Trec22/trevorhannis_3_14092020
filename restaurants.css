@@ -41,8 +41,13 @@ img{
     height:auto;    
 }
 header{
+    
     display: grid;
     grid-template-columns:1fr 1fr;
+
+}
+header div{
+    display: flex;
 
 }
 
@@ -312,21 +317,6 @@ a.button{
     overflow: hidden;
 }
 
-@keyframes animate{
-    0%{
-        width: 8rem;
-        height: 0px;
-        opacity: 0.5;
-        text-align: center;
-        
-    }
-    100%{
-        width: 6rem;
-        height: 0px;
-        opacity: 0;
-    }
-
-}
 
 div.button__order{
     text-align: center;
@@ -340,7 +330,7 @@ footer{
     background:#535353;
     color: white;
    
-    padding:0 85px;
+    padding:0;
 }
 
 footer h2{
@@ -374,58 +364,3 @@ li{
     padding:2rem;
 }
 
-@media screen and (min-width:1580px){
-    .resume {
-        width: auto;
-        height: 100%;
-        
-    }
-    .menu__main .menu{
-    
-        padding: 0 0px;
-        margin-top:-330px;
-    }
-}
-
-
-@media screen and (max-width:1360px){
-    .resume {
-        width: auto;
-        height: 100%;
-        
-    }
-    
-    .footer .footer_list{
-        display: flex;
-        -webkit-box-pack:center;
-        justify-content: center;
-        align-items: center;
-        -webkit-box-align: center;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        flex-direction:row;
-        margin-bottom: 25px;
-    }
-
-}
-
-@media screen and (min-width:1190px){
-    .resume {
-        width: auto;
-        height: 100%;
-        
-    }
-    .menu__main .menu{
-    
-        padding: 0 0px;
-        margin-top:-250px;
-    }
-}
-
-
-@media screen and (min-width: 1000px){
-    .menu__main .image {
-        height: 65rem;
-        background-position: center center;
-    }
-}
