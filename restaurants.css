@@ -111,7 +111,6 @@ div.menus__item__price{
     justify-content: end;
     font-weight:700;
     font-size:1em;
-   
     cursor: pointer;
     transition: transform 0.5s ease-in;
 }
@@ -212,8 +211,8 @@ section.menu{
     box-shadow: 0 0 15px #c4c4c4;
     overflow: hidden;
     position: relative;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition:all .2s ease-in-out;
+    transform:translateY(30px);
+    transition-delay:all .2s ease-in-out;
     cursor: pointer;
 }
 
