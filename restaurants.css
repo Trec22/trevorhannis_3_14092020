@@ -281,7 +281,7 @@ div.menus__item__description__text{
     justify-content: center;
     -ms-flex-align: center;
     top: 0;
-    left:80%;
+    left:100%;
     width: 20%;
     height: 100%;
     border-radius: 0 1.4rem 1.4rem 0;
@@ -293,9 +293,9 @@ div.menus__item__description__text{
     
 }
 
-.menus__item
-.menus__item__order i:hover{
-   
+.menus__item:hover
+.menus__item__order {
+    left:80%;
     transition: all .5s;
     -webkit-font-smoothing:antialiased;
     display: inline-block;
