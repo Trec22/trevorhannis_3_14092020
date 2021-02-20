@@ -93,13 +93,14 @@ header h2{
     
 }
 
+/*...position des menus...*/
+
 .menu{
-    position: relative;
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
-
 
 
 div.menus__item__price{
@@ -186,7 +187,7 @@ section.menu{
 }
 
 .menu__main .menu .menus{
-    margin-top:20px;
+    margin-top:10px;
 }
 
 .menu .menus{
@@ -194,11 +195,14 @@ section.menu{
     border-radius: 15px;
     box-shadow: 0 0 20px #c4c4c4;
     padding: 20px;
-    text-align:center;
+    
 }
 
 
+div.menus__item__description__text{
+    margin-left:1em;
 
+}
 
 .menus__item{
     margin-top:16px;
@@ -212,7 +216,7 @@ section.menu{
     overflow: hidden;
     position: relative;
     transform:translateY(30px);
-    transition-delay:all .2s ease-in-out;
+    transition-delay:all .20s ease-in-out;
     cursor: pointer;
 }
 
