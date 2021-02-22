@@ -87,7 +87,7 @@ header h2{
 .menu__main .menu{
     
     padding: 0 0px;
-    margin-top:-355px;
+
     border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
     
@@ -137,8 +137,8 @@ div.menus__item__price{
 
 .container_coeur{
     position:absolute;
-    top:30%;
-    right:-120%;
+    top:5%;
+    right:-160%;
 }
 
 .coeur{
@@ -187,7 +187,7 @@ section.menu{
 }
 
 .menu__main .menu .menus{
-    margin-top:2px;
+    margin-top:5rem;
     margin-bottom:20px;
 }
 
@@ -260,11 +260,6 @@ div.menus__item__description__text{
 }
 
 
-.menus__item:hover
-.menus__item__order{
-    width: 25%;
-}
-
 .menus__item
 .menus__item__order{
     background-color: #99e2d0;
@@ -293,9 +288,9 @@ div.menus__item__description__text{
     
 }
 
-.menus__item:hover
-.menus__item__order {
-    left:80%;
+.menus__item
+.menus__item__order i:hover{
+   
     transition: all .5s;
     -webkit-font-smoothing:antialiased;
     display: inline-block;
@@ -321,6 +316,10 @@ a.button{
     overflow: hidden;
 }
 
+.menus__item:hover .menus__item__order{
+    left: 80%;
+    transition:left 0.5s ease-in-out .5s;
+}
 
 div.button__order{
     text-align: center;
@@ -382,6 +381,20 @@ li{
     }
 }
 
+@media screen and (max-width:1320px){
+    .site {
+        width: auto;
+        height: 100%;
+        
+    }
+    .menu__main .menu{
+        
+        padding: 0 0px;
+        margin-top:-5rem;
+    }
+
+
+}
 @media screen and (min-width:1150px){
     .site {
         width: auto;
@@ -394,7 +407,7 @@ li{
     .menu__main .menu{
     
         padding: 0 0px;
-        margin-top:-350px;
+        margin-top:-30rem;
     }
 
 }
@@ -411,4 +424,5 @@ li{
         margin-right: 5em;
         padding:1.5rem;
     }
+    
 }
