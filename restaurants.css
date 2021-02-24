@@ -180,9 +180,24 @@ section.menu{
     border-radius: 15px;
     box-shadow: 0 0 20px #c4c4c4;
     padding: 20px;
+    transform: translateY(-30px);
     
 }
+.menus:hover .menus__item{
+    box-shadow:0 0 10px#99e2d0;
+}
 
+
+/*...apparition au défilement...*/
+article.menus__item{
+    opacity: 0;
+    transform: translateY(-30px);
+
+}
+article.menus__item-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition:1s cubic-bezier(.5,0,0,1);
 
 div.menus__item__description__text{
     margin-left:1em;
@@ -205,6 +220,8 @@ div.menus__item__description__text{
     cursor: pointer;
 }
 
+
+
 .menus h3{
     font-weight:750;
     margin-bottom: 8px;
@@ -224,7 +241,7 @@ div.menus__item__description__text{
 
 div.menus__item__price{
     position:absolute;
-    right: 20%;
+    right: 10%;
     -webkit-box-align: end;
     align-items: flex-end;
     -webkit-box-pack: end;
@@ -238,7 +255,8 @@ div.menus__item__price{
 
 .menus__item:hover .menus__item__price{
     left: 70%;
-    transition:left 0.5s ease-in-out .5s;
+    transition:left 0.8s ease-in-out .8s;
+    
 }
 
 
@@ -256,9 +274,7 @@ div.menus__item__price{
     background-color: #99e2d0;
     color: #fff;
     -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack:center;
-    justify-content: center;
+    align-items: center; 
     position:absolute;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -281,6 +297,7 @@ div.menus__item__price{
 .menus__item:hover .menus__item__order{
     left: 80%;
     transition:left 0.5s ease-in-out .5s;
+    
 }
 
 
@@ -312,7 +329,6 @@ footer{
     position:absolute;
     background:#535353;
     color: white;
-   
     padding:0;
 }
 
