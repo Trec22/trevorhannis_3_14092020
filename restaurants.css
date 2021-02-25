@@ -76,21 +76,16 @@ header h2{
 /*.....Menu Block....*/
 
 
-.nom_restaurant{
-    position: relative;
-}
-.nom_restaurant h2{
-    margin-left:1rem;
-}
-
-
 .menu__main .menu{
     
     padding: 0 0px;
-
     border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
     
+}
+
+.nom_restaurant{
+    position: absolute;
 }
 
 /*...position des menus...*/
@@ -119,11 +114,11 @@ header h2{
 
 .container_coeur{
     position:absolute;
-    top:5%;
-    right:-160%;
+    top:.5em;
+    right:-30rem;
 }
 
-.coeur{
+.nom_restaurant .coeur{
     position:absolute;
     cursor:pointer;
     opacity:0;
@@ -135,7 +130,7 @@ header h2{
     
 }
 
-.coeur2{
+.nom_restaurant .coeur2{
     position:absolute;
     cursor:pointer;
     opacity:0;
@@ -187,17 +182,9 @@ section.menu{
     box-shadow:0 0 10px#99e2d0;
 }
 
-
 /*...apparition au défilement...*/
-article.menus__item{
-    opacity: 0;
-    transform: translateY(-30px);
 
-}
-article.menus__item-visible{
-    opacity: 1;
-    transform: translateY(0);
-    transition:1s cubic-bezier(.5,0,0,1);
+
 
 div.menus__item__description__text{
     margin-left:1em;
