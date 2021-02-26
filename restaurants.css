@@ -358,8 +358,26 @@ li{
         right:-80rem;
     }
 
-    footer{
-        padding: 2rem;
+}
+
+
+@media screen and (min-width:2000px){
+    .footer{
+        padding: 4rem;
+    }
+
+}
+
+@media screen and (min-width:1890px){
+    .footer{
+        padding: 4rem;
+    }
+
+}
+
+@media screen and (min-width:1790px){
+    .footer{
+        padding: 4rem;
     }
 
 }
@@ -417,7 +435,7 @@ li{
         width: auto;
         height: 100%;  
     }
-    
+
     li{
         text-align: center;
         font-size: 1em;
