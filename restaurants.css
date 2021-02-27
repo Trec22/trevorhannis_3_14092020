@@ -89,9 +89,9 @@ header h2{
     
 }
 
-.nom_restaurant{
+/*...nom_restaurant{
     position: absolute;
-}
+}*/
 
 /*...position des menus...*/
 .menu{
@@ -114,14 +114,19 @@ header h2{
     border-radius: 4px;
     content: "";
 }
+.nom_restaurant{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
 
 /*....animation de coeur....*/
 
-.container_coeur{
+/*.container_coeur{
     position:absolute;
     top:.5em;
-    left:60rem;
-}
+    right:20%;
+}*/
 
 .nom_restaurant .coeur{
     position:absolute;
@@ -191,8 +196,14 @@ section.menu{
 
 
 
-div.menus__item__description__text{
+article.menus__item__description__text{
     margin-left:1em;
+
+}
+
+
+article{
+
 
 }
 
@@ -255,7 +266,8 @@ div.menus__item__price{
 /*..animation de selection de prix  2..*/
 
 
-.fa-check-circle:hover {
+.fa-check-circle{
+    
     content: "\f058";
     transition: transform 0.5s ease-in;
 }
@@ -268,11 +280,8 @@ div.menus__item__price{
     -webkit-box-align: center;
     align-items: center; 
     position:absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -ms-flex-pack: center;
+    display:flex;
     justify-content: center;
-    -ms-flex-align: center;
     top: 0;
     left:100%;
     width: 20%;
