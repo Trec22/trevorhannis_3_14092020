@@ -115,7 +115,7 @@ div h2{
     content: "";
 }
 
-article .nom_restaurant{
+div .nom_restaurant{
     display: flex;
 }
 
@@ -211,23 +211,19 @@ section.menu{
     }
 }
 
-article {
+article{
     
     display: inline-block;  /* pour un meilleur alignement */
     position:relative;      /* pour servir de référent à :after */
     min-width:4%;         /* dimension minimum */
     margin-left:-4%;   
-          
-    background:#cde;        /* pour voir l'espace occupé */
     font-size: 1em;
     text-align: left;
-    animation: defilement 1s infinite linear;
+    animation: defilement 5.5s infinite linear;
     }
 
-.article:focus-visible{
-    
-/* placement à droite toute */
-    animation-play-state: paused;
+.article:hover{
+    animation:defilement none;
 
 }
 

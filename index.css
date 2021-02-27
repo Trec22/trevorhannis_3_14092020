@@ -24,7 +24,8 @@ h1{
     }  20% { 
       transform: scaleY(1.0);
       -webkit-transform: scaleY(1.0);
-
+    }
+}
 .loader_container{
     background-color: #fff;
     position: fixed;
