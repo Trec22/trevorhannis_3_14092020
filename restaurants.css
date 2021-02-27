@@ -65,7 +65,7 @@ h1{
     
 }
 
-header h2{
+div h2{
     font-family:'shrikhand',cursive;
 }
 
@@ -89,9 +89,9 @@ header h2{
     
 }
 
-/*...nom_restaurant{
+.nom_restaurant{
     position: absolute;
-}*/
+}
 
 /*...position des menus...*/
 .menu{
@@ -114,19 +114,23 @@ header h2{
     border-radius: 4px;
     content: "";
 }
-.nom_restaurant{
-    position: relative;
+
+article .nom_restaurant{
     display: flex;
+}
+
+.nom_restaurant{
+   
     justify-content: space-between;
 }
 
 /*....animation de coeur....*/
 
-/*.container_coeur{
+.container_coeur{
     position:absolute;
-    top:.5em;
-    right:20%;
-}*/
+    top:10%;
+    right:-90%;
+}
 
 .nom_restaurant .coeur{
     position:absolute;
@@ -145,7 +149,7 @@ header h2{
     cursor:pointer;
     opacity:0;
     transform-origin:bottom;
-    top:0;
+    top:0rem;
     font-size:1.5rem;
     
 }
@@ -194,7 +198,36 @@ section.menu{
 
 /*...apparition au défilement...*/
 
+@keyframes defilement {
+    0% {
+        margin-top:0;
+    }
+    100% {
+        margin-top:-100%;
+    }
+}
 
+article {
+    
+    display: inline-block;  /* pour un meilleur alignement */
+    position:relative;      /* pour servir de référent à :after */
+    min-width:100%;         /* dimension minimum */
+    margin-left: -100%;   
+          
+    background:#cde;        /* pour voir l'espace occupé */
+    font-size: 1em;
+    text-align: left;
+    animation: defilement 20s infinite linear;
+    }
+
+.article:visited{
+    content: attr(data-text);
+    position: absolute;
+    left:100%;              /* placement à droite toute */
+    white-space: nowrap;
+    /*padding-left: 10px    /* OUT pas nécessaire ou mettre même valeur que conteneur */
+
+}
 
 article.menus__item__description__text{
     margin-left:1em;
@@ -202,10 +235,7 @@ article.menus__item__description__text{
 }
 
 
-article{
 
-
-}
 
 .menus__item{
     margin-top:16px;
@@ -237,6 +267,7 @@ article{
     display: flex;
     justify-content: space-between;
     align-items:center;
+    margin-left: 1em;
 }
 
 /*..animation de selection de prix  1..*/
@@ -305,6 +336,7 @@ div.menus__item__price{
  /*...btn de order... */
 
 a.button{
+    
     background-color: rgb(214, 13, 214);
     border: none;
     color: white;
@@ -315,15 +347,15 @@ a.button{
     font-size: 22px;
     border-radius:2rem;
     overflow: hidden;
-    
+    margin-bottom:1em;
 }
 
 
 div.button__order{
+    justify-content: center;
     text-align: center;
-    margin-bottom:2rem;
-    margin-top:2rem;
-
+    background-color:#f3f2f2;
+    width: 75%;
 }
 
 footer{
@@ -366,9 +398,9 @@ li{
 
 
 @media screen and (max-width:2590px){
-    .container_coeur{
-        position: absolute;
-        right:-80rem;
+    .site {
+        width: auto;
+        height: 100%;   
     }
 
 }
