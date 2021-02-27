@@ -34,6 +34,9 @@ h2{
 h2 i{
     background-color: rgb(145, 141, 141);
 
+}
+.info a:hover{
+    color: red;
 }    
 
 
