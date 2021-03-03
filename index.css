@@ -16,16 +16,14 @@ h1{
 }
 
 /*...loader...*/
- 
-@keyframes delay {
-    0%, 40%, 100% { 
-      transform: scaleY(0.05);
-      -webkit-transform: scaleY(0.05);
-    }  20% { 
-      transform: scaleY(1.0);
-      -webkit-transform: scaleY(1.0);
+
+@keyframes spin {
+    to {
+    transform: rotate(360deg);
     }
+ 
 }
+
 .loader_container{
     background-color: #fff;
     position: fixed;
@@ -43,21 +41,26 @@ h1{
     z-index: 9999;
     animation: desapear 1.5s linear forwards;
     animation-delay:3s;
-
 }
+
 .loader{
+
     text-align: center;
     box-shadow: 0 0 20px 8px gray;
-    position: relative;
+    position:absolute;
     color: rgb(214, 13, 214);
     border:1em solid #e4e4e4;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
     line-height: 8rem;
+    animation:3s spin infinite ease-in-out;
 }
 
+
+
 .loader i{
+    display: inline-block;
     background-color: #fff;
     width: 5rem;
     height: 5rem;
@@ -66,7 +69,7 @@ h1{
     top:1.3rem;
     left:1.3rem;
     z-index:100;
-    animation: ecrase 3s linear forwards;
+    animation: 3s linear forwards;
 }
 
 /*...info...*/

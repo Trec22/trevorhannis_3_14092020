@@ -220,7 +220,7 @@ article{
     margin-left:-4%;   
     font-size: 1em;
     text-align: left;
-    animation: defilement 5.5s linear;  /*..temps de defilement...*/
+    animation: defilement 5.5s linear;  /*...temps de defilement...*/
     }
 
 .article:hover{
