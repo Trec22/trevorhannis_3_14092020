@@ -17,8 +17,11 @@ h1{
 
 /*...loader...*/
 
-@keyframes spin {
-    to {
+@keyframes loader-spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
     transform: rotate(360deg);
     }
  
@@ -40,21 +43,21 @@ h1{
     -webkit-box-align: center;
     z-index: 9999;
     animation: desapear 1.5s linear forwards;
-    animation-delay:3s;
+
 }
 
 .loader{
 
     text-align: center;
     box-shadow: 0 0 20px 8px gray;
-    position:absolute;
+    position:relative;
     color: rgb(214, 13, 214);
     border:1em solid #e4e4e4;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
     line-height: 8rem;
-    animation:3s spin infinite ease-in-out;
+    animation:loader-spin 3.5s infinite ease-in-out;
 }
 
 
@@ -68,8 +71,8 @@ h1{
     position: absolute;
     top:1.3rem;
     left:1.3rem;
-    z-index:100;
-    animation: 3s linear forwards;
+
+    
 }
 
 /*...info...*/
