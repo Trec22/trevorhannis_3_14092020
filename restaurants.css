@@ -5,7 +5,7 @@ body {
     height: 100%;
     margin:10rem;
     margin-top:-2rem;
-   
+    word-wrap: break-word;
 }
 
 /*....retour btn....*/
@@ -22,9 +22,6 @@ body {
 }
 
 
-
-
-
 /*....image....*/
 
 img{
@@ -35,6 +32,7 @@ img{
 .menu__main .image{
     height:55rem;
     background-position:center center;
+    position: relative;
 }
 
 img{
@@ -67,6 +65,12 @@ h1{
 
 div h2{
     font-family:'shrikhand',cursive;
+    position:relative;
+    margin-right:1em;
+}
+
+div.coeur{
+    position: relative;
 }
 
 .menus h2{
@@ -118,6 +122,11 @@ div h2{
 div .nom_restaurant{
     display: flex;
 }
+section.nom{
+    display:block;
+    justify-content: space-between;
+
+}
 
 .nom_restaurant{
    
@@ -129,7 +138,7 @@ div .nom_restaurant{
 .container_coeur{
     position:absolute;
     top:10%;
-    right:-90%;
+    right:-45%;
 }
 
 .nom_restaurant .coeur{
