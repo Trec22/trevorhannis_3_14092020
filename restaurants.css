@@ -6,6 +6,7 @@ body {
     word-wrap: break-word;
     text-align: center;
     margin-left: 10rem;
+    overflow: hidden;
 }
 
 /*....retour btn....*/
@@ -91,7 +92,6 @@ div.coeur{
 
 
 .menu__main .menu{
-    
     padding: 0 0px;
     border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
@@ -111,7 +111,6 @@ div.coeur{
 
 }
 
-
 .menu__main .menu
 .menus h2::after{
     background-color: #99e2d0;
@@ -127,6 +126,7 @@ div.coeur{
 div .nom_restaurant{
     display: flex;
 }
+
 section.nom{
     display:block;
     justify-content: space-between;
@@ -134,8 +134,8 @@ section.nom{
 }
 
 .nom_restaurant{
-   
     justify-content: space-between;
+
 }
 
 /*....animation de coeur....*/
@@ -231,7 +231,8 @@ article{
     display: inline-block;  /* pour un meilleur alignement */
     position:relative;      /* pour servir de référent à :after */
     min-width:4%;         /* dimension minimum */
-    margin-left:-4%;   
+    margin-left:-3%; 
+    margin-bottom:1%; 
     font-size: 1em;
     text-align: left;
     animation: defilement 5.5s linear;  /*...temps de defilement...*/
@@ -244,8 +245,7 @@ article{
 
 article.menus__item__description__text{
     margin-left:1em;
-    word-wrap: break-word;
-
+    
 }
 
 
@@ -274,7 +274,7 @@ article.menus__item__description__text{
     margin-bottom: 8px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow:hidden;
+    
 }
 
 .menus__item__description{
@@ -282,6 +282,9 @@ article.menus__item__description__text{
     justify-content: space-between;
     align-items:center;
     margin-left: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 /*..animation de selection de prix  1..*/
@@ -311,10 +314,12 @@ div.menus__item__price{
 /*..animation de selection de prix  2..*/
 
 
-.fa-check-circle{
+.menus__item:hover .fa-check-circle{
     
     content: "\f058";
-    transition: transform 0.5s ease-in;
+    transition:rotate 5s ease-in;
+    transform:rotate(360deg);
+    
 }
 
 
@@ -331,13 +336,12 @@ div.menus__item__price{
     left:100%;
     width: 20%;
     height: 100%;
-    border-radius: 0 1.4rem 1.4rem 0;
     font-size: 20px;
     -webkit-transform-origin: right;
     -ms-transform-origin: right;
     transform-origin: right;
     overflow: hidden;
-    
+   
 }
 
 .menus__item:hover .menus__item__order{
@@ -473,7 +477,7 @@ li{
 
 @media screen and (min-width:1150px){
     .site {
-        width: auto;
+        width:100%;
         height: 100%;   
     }
 
@@ -489,9 +493,20 @@ li{
 
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1150px){
     .site {
-        width: auto;
+        width:100%;
+        height: 100%;   
+    }
+    .header h1{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:900px){
+    .site {
+        width:100%;
         height: 100%;  
     }
 
