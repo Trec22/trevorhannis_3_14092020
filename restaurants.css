@@ -320,13 +320,13 @@ div.menus__item__price{
 
 .menus__item__order .fa-check-circle{
     position: relative;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
     transition-property: transform;
 
 }
 
 .menus__item__order .fa-check-circle:hover{
-    transition:rotate 5s ease-in;
+    transition:rotate 0.1s ease-in;
     transform:rotate(360deg);
 }
 
