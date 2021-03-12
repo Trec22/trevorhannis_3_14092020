@@ -87,8 +87,8 @@ div.coeur{
 }
 
 
-/*.....Menu Block....*/
 
+/*.....Menu Block....*/
 
 .menu__main .menu{
     padding: 0 0px;
@@ -107,7 +107,6 @@ div.coeur{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .menu__main .menu
@@ -190,7 +189,6 @@ section.menu{
     border-radius: 20px 20px 0 0;
     width: 75%;
     padding: 0 16px;
-
 }
 
 .menu__main .menu .menus{
@@ -320,13 +318,13 @@ div.menus__item__price{
 
 .menus__item__order .fa-check-circle{
     position: relative;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-property: transform;
 
 }
 
 .menus__item__order .fa-check-circle:hover{
-    transition:rotate 0.1s ease-in;
+    transition:rotate 0.5s ease-in;
     transform:rotate(360deg);
 }
 
@@ -355,7 +353,7 @@ div.menus__item__price{
 .menus__item:hover .menus__item__order{
     left: 80%;
     transition:left 0.3s ease-in-out .3s;
-   
+  
     
 }
 
