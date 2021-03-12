@@ -34,7 +34,6 @@ img{
 }
 
 .menu__main .image{
-    height:55rem;
     background-position:center center;
     position: relative;
 }
@@ -422,7 +421,7 @@ li{
 }
 
 
-@media screen and (max-width:2590px){
+@media screen and (min-width:2590px){
     .site {
         width: auto;
         height: 100%;   
@@ -498,21 +497,55 @@ li{
         margin-top:-30rem;
     }
 
+    footer {
+        width:68.2%;
+        height:20%;
+    }
+
+    footer h2{
+        margin-top:-1rem
+    }
+
+    footer li{
+        margin-top:-.5rem;
+    }
+
 }
 
 
 
-@media screen and (min-width:900px){
+@media screen and (max-width:900px){
     .site {
-        width:auto;
+        width:100%;
         height: 100%;  
     }
 
+    .header h1{
+        margin-left:-12rem;
+ 
+    }
+    
     li{
         text-align: center;
         font-size: 1em;
         margin-right: 5em;
         padding:1.5rem;
     }
+
+    footer {
+        width:67%;
+        height:20%;
+        
+    }
+
+    footer h2{
+        margin-top:-1rem
+    }
+
+    footer li{
+        margin-top:-.5rem;
+        margin:-.5rem
+    }
+
     
 }
