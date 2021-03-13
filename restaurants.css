@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-.site {
+.menu__main{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.site{
     width:75%;
     height: 100%;
     word-wrap: break-word;
     text-align: center;
     margin:0 auto;
 }
+
 
 /*....retour btn....*/
 
@@ -186,7 +192,7 @@ section.nom{
 section.menu{
     background-color: rgb(240,239,239);
     border-radius: 20px 20px 0 0;
-    width: 75%;
+    
     padding: 0 16px;
 }
 
@@ -547,6 +553,9 @@ li{
     .header h1{
         margin-left:-12rem;
  
+    }
+    h2{
+        margin-left:-8rem;
     }
     
     li{
