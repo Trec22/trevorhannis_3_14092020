@@ -480,7 +480,6 @@ li{
 }
 
 
-
 @media screen and (min-width:1150px){
     .site {
         width:auto;
@@ -512,6 +511,22 @@ li{
 
 }
 
+@media screen and (min-width:1000px){
+    .site {
+        width:auto;
+        height: 100%;   
+    }
+    .header h1{
+        margin-left:-15rem;
+    }
+    div h2{
+        margin-right:12rem;
+    }
+    footer h2{
+        margin-top:-1rem
+    }
+    
+}
 
 
 @media screen and (max-width:900px){
@@ -554,13 +569,22 @@ li{
         width:100%;
         height: 100%;  
     }
+
+    h2{
+        margin-left:-5rem;
+    }
     
     footer {
-        width:100%;
+        width:65%;
         height:20%;   
     }
 
+    li{
+        font-size:1em;
+    }
+
     .footer .footer_list{
-        margin-left:-2rem;
+        margin-left:-4rem;
+        margin-top: -.5rem;
     }
 }
