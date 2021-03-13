@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@media all and (min-width:1151px){
 
+.footer{
+    width: 100%;
+}
 .menu__main{
     width: 75%;
     margin: 0 auto;
 }
-
+}
 .site{
     width:75%;
     height: 100%;
@@ -321,15 +325,15 @@ div.menus__item__price{
     
 }
 
-.menus__item__order .fa-check-circle{
+.menus__item .fa-check-circle{
     position: relative;
-    transition-duration: 0.5s;
+    transition-duration: 2.5s;
     transition-property: transform;
 
 }
 
-.menus__item__order .fa-check-circle:hover{
-    transition:rotate 0.5s ease-in;
+.menus__item:hover .fa-check-circle{
+    transition-duration: 1.5s;
     transform:rotate(360deg);
 }
 
@@ -385,7 +389,7 @@ div.button__order{
     justify-content: center;
     text-align: center;
     background-color:#f3f2f2;
-    width: 75%;
+    
 }
 
 footer{
@@ -431,7 +435,7 @@ li{
     .site {
         width: auto;
         height: 100%; 
-        margin-left:5rem; 
+        
     }
 }
 
@@ -443,12 +447,7 @@ li{
 
 }
 
-@media screen and (max-width:1890px){
-    .site{
-        margin-left:5rem;
-    }
 
-}
 
 @media screen and (min-width:1890px){
     .footer{
