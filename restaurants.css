@@ -2,7 +2,8 @@
 @media all and (min-width:1151px){
 
 .footer{
-    width: 100%;
+    width: 75%;
+    margin:0 auto;
 }
 .menu__main{
     width: 75%;
