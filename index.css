@@ -42,12 +42,11 @@ h1{
     -webkit-box-pack: center;
     -webkit-box-align: center;
     z-index: 9999;
-    animation: desapear 1.5s linear forwards;
+    animation: desapear 2.5s linear forwards;
 
 }
 
 .loader{
-
     text-align: center;
     box-shadow: 0 0 20px 8px gray;
     position:relative;
@@ -57,23 +56,22 @@ h1{
     width: 8rem;
     height: 8rem;
     line-height: 8rem;
-    animation:loader-spin 3.5s infinite ease-in-out;
+    animation:loader-spin 2.5s infinite;
 }
 
 
-
-.loader i{
-    display: inline-block;
+.loader_container i{
+    display:inline-block;
     background-color: #fff;
     width: 5rem;
     height: 5rem;
     font-size: 4em;
-    position: absolute;
+    position:absolute;
     top:1.3rem;
     left:1.3rem;
-
     
 }
+
 
 /*...info...*/
 
@@ -82,6 +80,7 @@ section.info{
     
 }
 
+
 h2{
     height: 6vh;
     margin-top:-1em;
@@ -89,12 +88,13 @@ h2{
     background-color:rgb(201,195,195);
     margin-top: -2.5rem;
     padding: 10px;
-
 }
+
 h2 i{
     background-color: rgb(145, 141, 141);
 
 }
+
 .info a:hover{
     color: red;
 }    
@@ -110,11 +110,13 @@ h3{
     text-align: center;
 }
 
+
 p{
     margin-top:-1em;
     font-size:1.5em;
     text-align: center;
 }
+
 
 .info a.button{
     margin-left: 43%;
@@ -127,13 +129,13 @@ p{
     border: none;
     color: white;
     padding: 10px;
-
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 2rem;
     
 }
+
 .info.button{
     text-align: center;
 }
@@ -158,6 +160,7 @@ p{
     box-shadow: 3px 0px 3px #73737338 inset;
     border-bottom: 5px solid #9356dc;
 }
+
 
 .function__step {
     
@@ -188,6 +191,7 @@ p{
     margin: 0 1.5rem 0 -12px;
 }
 
+
 .function__step:hover {
     background-color: #e4d5f6;
     color: #000;
@@ -195,9 +199,11 @@ p{
     box-shadow: 3px 3px 20px #c6bfbf;
 }
 
+
 .function__step:hover .function__step--icon {
     color: #9356dc;
 }
+
 
 .function__step--title {
     grid-column-start: 2;
@@ -205,11 +211,13 @@ p{
     font-size: 1rem;
     font-weight: bold;
 }
+
 .function__step--icon {
     grid-column-start: 2;
     font-size: 20px;
     color: #7e7e7e;
 }
+
 .function--title {
     text-align: center;
     grid-column-start: 1;
