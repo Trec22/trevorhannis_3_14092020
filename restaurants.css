@@ -8,6 +8,11 @@ body{
     margin:0 auto;
 }
 
+.header{
+    width: 75%;
+    margin: 0 auto;
+}
+
 .menu__main{
     width: 75%;
     margin: 0 auto;
@@ -39,20 +44,22 @@ img{
 .menu__main .image{
     height:35%;
     width:155%;
-    background-position:center;
-    position: relative;
+    background-position:center center;
+    background-size: cover;
 }
 
 img{
     overflow: hidden;
     border-radius:0 0 20px 20px;
-    position: relative;
-    height:35%;
-    width:165%;
+    position:relative;
+    height:25rem;
+    width:55rem;
     margin-top:2rem;
 }
 
+
 header{
+    
     display: grid;
     grid-template-columns:1fr 1fr;
 }
@@ -170,6 +177,7 @@ section.nom{
     font-size:1.5rem;
     
 }
+
 
 .coeur2:hover{
     opacity:1;
@@ -384,6 +392,8 @@ div.button__order{
 }
 
 footer{
+    width: 75%;
+    margin:0 auto;
     background:#535353;
     color: white;
     padding:2em;
