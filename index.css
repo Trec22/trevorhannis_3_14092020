@@ -15,14 +15,14 @@ h1{
     margin-bottom: 1em;
 }
 
-/*...loader...*/
+    /*-.....loader.....-*/
 
 @keyframes loader-spin {
     0%{
-    -webkit-transform: rotate(0deg); transform: rotate(0deg);
+    transform: rotate(0deg) scale(1); transform: rotate(0deg) scale(1);
     }
     100%{
-    -webkit-animation-delay: rotate(360deg); transform: rotate(360deg);
+    -webkit-animation-delay: rotate(360deg) scale(1.15); transform: rotate(360deg) scale(1.15);
     }
  
 }
@@ -41,23 +41,23 @@ h1{
     right: 0;
     -webkit-box-pack: center;
     -webkit-box-align: center;
-    z-index: 9999;
-    -webkit-animation:spin 2.5s linear forwards;
+    z-index:3;
+    animation:spin 4.5s linear forwards;
 
 }
 
 .loader{
     text-align: center;
     box-shadow: 0 0 20px 8px gray;
-    position:relative;
+    position: relative;
     color: rgb(214, 13, 214);
     border:1em solid #e4e4e4;
     border-radius: 50%;
     width: 8rem;
     height: 8rem;
     line-height: 8rem;
-    animation:loader-spin 1.5s infinite;
-
+    animation:loader-spin 4.5s linear infinite;
+    
 }
 
 .loader_container i{
@@ -73,7 +73,7 @@ h1{
 }
 
 
-/*...info...*/
+/*-.....info.....-*/
 
 section.info{
     background:rgb(240,239,239);  
@@ -139,7 +139,7 @@ p{
 }
 
 
-/*...functionnement...*/
+/*-.....functionnement.....-*/
 
 .functionnement h3{
     /*margin-left:-10rem;*/
@@ -230,7 +230,7 @@ p{
 
 
 
-/*...Main...*/
+/*-.....Main.....-*/
 
 main.main{
     background-color: rgb(240,239,239);
@@ -330,7 +330,9 @@ article.restaurants{
     margin-left:3rem;
 }
 
-/*animation de coeur*/
+
+/*-.....animation de coeur.....-*/
+
 .container_coeur{
     position:absolute;
     top:85%;
@@ -372,7 +374,7 @@ article.restaurants{
     display:none;
 }
 
-/*...Footer...*/
+/*-.....Footer.....-*/
 
 
 footer{
