@@ -247,6 +247,9 @@ article{
     font-size: 1em;
     text-align: left;
     animation: defilement 5.5s linear;  /*...temps de defilement...*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }
 
 .article:hover{
@@ -622,12 +625,20 @@ li{
         height: 100%;  
     }
 
+    .menu .menus {
+        width: 75%;
+
+    }
+
     /*-...placement du prix apres hover...-*/
 
 
     .menus__item:hover .menus__item__price{
         left: 60%;
 
+    }
+    h2{
+        margin-left: -5.5rem;
     }
 }
 
@@ -642,7 +653,7 @@ li{
     
     }
     h2{
-        margin-left:-6rem;
+        margin-left:-3rem;
     }
 
     li{
@@ -657,7 +668,7 @@ li{
 }
 
 @media screen and (max-width:300px){
-    .site {
+    body {
         width:100%;
         height: 100%;  
     }
@@ -671,9 +682,17 @@ li{
         margin-top:.2rem;
         margin-left:.8rem;
     }
+    
+    .menu__main .menu {
+        width: 100%;
+    }
+
+    .menu .menus {
+        width: 100%;
+    }
 
     h2{
-        margin-left:-5rem;
+        margin-left:-1rem;
     }
 
     .footer h2{
