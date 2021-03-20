@@ -34,10 +34,16 @@ body{
     font-weight: bold;
 }
 
-/*....image....*/
+/*-.... image size....-*/
 
 img{
     background-image: url(image1.jpg);
+    border-radius:0 0 20px 20px;
+    position:relative;
+    height:320px;
+    width:100%;
+    margin-top:2rem;
+    object-fit: cover;
     
 }
 
@@ -46,15 +52,6 @@ img{
     width:100%;
     background-position:center center;
 
-}
-
-img{
-    overflow: hidden;
-    border-radius:0 0 20px 20px;
-    position:relative;
-    height:25rem;
-    width:55rem;
-    margin-top:2rem;
 }
 
 
@@ -102,24 +99,25 @@ div.coeur{
 
 /*.....Menu Block....*/
 
+/*...position des menus...*/
+    
 .menu__main .menu{
+    margin-top:-45px;
     padding: 0 0px;
     border-radius: 40px 40px 0 0;
     background-color:#f3f2f2;
-    
-}
-
-.nom_restaurant{
-    position: absolute;
-}
-
-/*...position des menus...*/
-.menu{
     position:relative;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+    
+
+.nom_restaurant{
+    position: absolute;
+}
+
+
 
 .menu__main .menu
 .menus h2::after{
@@ -153,7 +151,7 @@ section.nom{
 .container_coeur{
     position:absolute;
     top:10%;
-    right:-35%;
+    right:-25%;
 }
 
 .nom_restaurant .coeur{
@@ -247,8 +245,6 @@ article{
     font-size: 1em;
     text-align: left;
     animation: defilement 5.5s linear;  /*...temps de defilement...*/
-    overflow: hidden;
-    text-overflow: ellipsis;
     
 }
 
@@ -258,6 +254,7 @@ article{
 }
 
 article.menus__item__description__text{
+
     margin-left:1em;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -440,6 +437,7 @@ li{
 
 @media screen and (min-width:2590px){
     .site {
+        margin-top: 1.5rem;
         width: auto;
         height: 100%;   
     }
@@ -455,6 +453,11 @@ li{
         width: auto;
         height: 100%;   
     }
+
+    .menu .menus {
+        width: 100%;
+
+    }
 }
 
 
@@ -464,29 +467,54 @@ li{
         height: 100%;   
     }
 
-   
+    div h2 {
+        margin-left:-14rem;
+        margin-right:66rem;
+    }
+
 }
 
 
 @media screen and (max-width:2000px){
-    .site {
+    body{
+        margin-top:1.5rem;
         width:auto;
         height: 100%;   
     }
+
     .menu__main header.image {
         height:35rem;
         width: auto;
         background-position: center center;
     }
+
+    div h2 {
+        margin-left: -16rem;
+        margin-right:48rem;
+    }
     
 }
 
+@media screen and (max-width:1800px){
+    .site{
+        width:auto;
+        height:100%;   
+    }
+
+    div h2 {
+        margin-left:-14rem;
+        margin-right:42rem;
+
+    }
+
+}
 
 @media screen and (max-width:1790px){
     .site{
         width:auto;
         height:100%;   
     }
+
     .menu__main header.image{
         width:auto;
         height:70rem;
@@ -494,6 +522,21 @@ li{
         position:relative;
     }
 
+}
+
+@media screen and (max-width:1500px){
+    .site {
+        width: auto;
+        height: 100%;   
+    }
+
+    img{
+        height:300px;
+        width:100%;
+    }
+    div h2 {
+        margin-right: 30rem;
+    }
 
 }
 
@@ -513,14 +556,22 @@ li{
 }
 
 
-
-
 @media screen and (max-width:1320px){
     .site {
         width: auto;
         height: 100%;
         margin-left: 5rem;  
-    } 
+    }
+    
+    .container_coeur{
+        position:absolute;
+        top:20%;
+        right:-15%;
+    }
+
+    div h2 {
+        margin-right: 25rem;
+    }
 
     .menu__main .menu{
         padding: 0 0px;
@@ -551,6 +602,12 @@ li{
         padding: 0 0px;
         margin-top:-15rem;
     }
+    .menus__item__description__text p,.menus__item__description__text h3{
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
     footer h2{
         margin-top:-1rem;
@@ -562,14 +619,47 @@ li{
 
 }
 
-@media screen and (min-width:1000px){
-    .site {
+@media screen and (max-width:1149px){
+    body{
         width:auto;
         height: 100%;   
     }
+
+    img{
+        height:350px;
+        width:100%;
+    
+    }
+
+}
+
+
+@media screen and (max-width:1000px){
+    body{
+        width:auto;
+        height: 100%;   
+    }
+
     .header h1{
         margin-left:-6rem;
     }
+
+    img{
+        height:480px;
+        width:100%;
+    
+    }
+
+    .menu .menus {
+        width: 80%;
+
+    }
+        
+    .menus__item{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     div h2{
         margin-right:12rem;
     }
@@ -625,6 +715,12 @@ li{
         height: 100%;  
     }
 
+    img{
+        height:370px;
+        width:100%;
+        
+    }    
+
     .menu .menus {
         width: 75%;
 
@@ -649,11 +745,22 @@ li{
         height: 100%;  
     }
     .header h1{
+        margin-left: -1.8em;
         font-size:2rem;
     
     }
     h2{
         margin-left:-3rem;
+    }
+    img{
+        height:420px;
+        width:100%;
+        
+    }    
+    .container_coeur{
+        position:absolute;
+        top:10%;
+        right:-10%;
     }
 
     li{
@@ -669,7 +776,7 @@ li{
 
 @media screen and (max-width:300px){
     body {
-        width:100%;
+        width:120%;
         height: 100%;  
     }
 
@@ -679,19 +786,28 @@ li{
 
     .header h1{
         font-size:1.8rem;
-        margin-top:.2rem;
-        margin-left:.8rem;
+        margin-left:-2.4em;
     }
+
+    img{
+        height:420px;
+        width:100%;
+        
+    }    
     
     .menu__main .menu {
         width: 100%;
     }
 
-    .menu .menus {
-        width: 100%;
+    .container_coeur{
+        position:absolute;
+        top:22%;
+        right:-.3%;
+    
     }
 
     h2{
+        font-size:1em;
         margin-left:-1rem;
     }
 
