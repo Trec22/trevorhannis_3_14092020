@@ -633,6 +633,20 @@ li{
 
 }
 
+@media screen and (min-width: 1050px){
+    .resume {
+        width: auto;
+        height: 100%;
+        
+    }
+
+    div h2{
+        right:-8rem;
+    }
+   
+}
+
+
 
 @media screen and (max-width:1000px){
     body{
