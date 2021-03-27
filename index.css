@@ -24,7 +24,7 @@ h1{
     transform: rotate(0deg) scale(1); transform: rotate(0deg) scale(1);
     }
     100%{
-    -webkit-animation-delay: rotate(360deg) scale(1.15); transform: rotate(360deg) scale(1.15);
+    animation-delay: rotate(360deg) scale(1.15); transform: rotate(360deg) scale(1.15);
     }
 }
 
@@ -61,8 +61,8 @@ h1{
     animation-name: disappear;
     animation-delay: 3.5s;
     animation-fill-mode: forwards;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+    box-pack: center;
+    box-align: center;
     z-index:4;
     
 }
@@ -81,8 +81,8 @@ h1{
     line-height: 8rem;
     margin-top: -30px;
     margin-left: -30px;
-    -webkit-animation:loader-spin 1.5s infinite ease-in-out;
-    -o-animation: loader-spin 1.5s infinite ease-in-out;
+    animation:loader-spin 1.5s infinite ease-in-out;
+    animation: loader-spin 1.5s infinite ease-in-out;
     animation:loader-spin 1.5s infinite ease-in-out;
     
 }
@@ -191,7 +191,7 @@ p{
     padding: 0 0 65px 0;
     font-size: 1rem;
     background: #f6f6f6;
-    -webkit-box-shadow: 3px 0px 3px #73737338 inset;
+    box-shadow: 3px 0px 3px #73737338 inset;
     box-shadow: 3px 0px 3px #73737338 inset;
     border-bottom: 5px solid #9356dc;
 }
@@ -204,12 +204,11 @@ p{
     margin:12px auto;
     padding: 1.8rem 0 1.3rem 0;
     background-color: #fff;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    box-align: center;
     align-items: center;
     width:50%;
     border-radius: 1.5rem;
-    -webkit-box-shadow: 3px 3px 10px #dedada;
+    box-shadow: 3px 3px 10px #dedada;
     box-shadow: 3px 3px 10px #dedada;
     grid-column-start: 2;
     margin-bottom:2rem;   
@@ -229,7 +228,7 @@ p{
 .function__step:hover {
     background-color: #e4d5f6;
     color: #000;
-    -webkit-box-shadow: 3px 3px 20px #c6bfbf;
+    box-shadow: 3px 3px 20px #c6bfbf;
     box-shadow: 3px 3px 20px #c6bfbf;
 }
 
@@ -263,7 +262,6 @@ p{
     font-weight: bold;
     padding: 1rem 0 1rem 0;
     background-color: #eaeaea;
-    -webkit-box-shadow: 3px 3px 3px #73737338 inset;
     box-shadow: 3px 3px 3px #73737338 inset;
 }
 
@@ -327,8 +325,6 @@ main article {
 article p.button{
     background-color: rgb(7, 197, 165);
     color: rgb(4, 134, 4);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     border: 2px;
     float:right; 
