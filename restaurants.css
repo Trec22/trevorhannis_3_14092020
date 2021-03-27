@@ -272,7 +272,6 @@ article.menus__item__description__text{
     overflow: hidden;
     position: relative;
     transform:translateY(30px);
-    transition-delay:.2s ease-in-out;
     cursor: pointer;
 }
 
