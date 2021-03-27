@@ -264,7 +264,6 @@ article.menus__item__description__text{
 .menus__item{
     margin-top:16px;
     display:flex;
-    box-pack: justify;
     justify-content: space-between;
     padding: 0;
     background-color:#fff;
@@ -273,7 +272,7 @@ article.menus__item__description__text{
     overflow: hidden;
     position: relative;
     transform:translateY(30px);
-    transition-delay:0.20s ease-in-out;
+    transition-delay:.2s ease-in-out;
     cursor: pointer;
 }
 
@@ -302,9 +301,7 @@ article.menus__item__description__text{
 div.menus__item__price{
     position:absolute;
     right: 4%;
-    box-align: end;
     align-items: flex-end;
-    box-pack: end;
     justify-content:flex-end;
     font-weight:700;
     font-size:1em;
@@ -344,7 +341,7 @@ div.menus__item__price{
 .menus__item__order{
     background-color: #99e2d0;
     color: #fff;
-    box-align: center;
+    
     align-items: center; 
     position:absolute;
     display:flex;
