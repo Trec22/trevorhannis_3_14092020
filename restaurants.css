@@ -198,7 +198,6 @@ section.nom{
 section.menu{
     background-color: rgb(240,239,239);
     border-radius: 20px 20px 0 0;
-    
     padding: 0 16px;
 }
 
@@ -224,11 +223,12 @@ section.menu{
 /*...make it move...*/
 @keyframes defilement {
     0% {
-        -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 0;
+        transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0;
         
     }
+
     100% {
         opacity: 1;
         margin-top:0;
@@ -264,7 +264,7 @@ article.menus__item__description__text{
 .menus__item{
     margin-top:16px;
     display:flex;
-    -webkit-box-pack: justify;
+    box-pack: justify;
     justify-content: space-between;
     padding: 0;
     background-color:#fff;
@@ -273,7 +273,7 @@ article.menus__item__description__text{
     overflow: hidden;
     position: relative;
     transform:translateY(30px);
-    transition-delay:.20s ease-in-out;
+    transition-delay:0.20s ease-in-out;
     cursor: pointer;
 }
 
@@ -302,9 +302,9 @@ article.menus__item__description__text{
 div.menus__item__price{
     position:absolute;
     right: 4%;
-    -webkit-box-align: end;
+    box-align: end;
     align-items: flex-end;
-    -webkit-box-pack: end;
+    box-pack: end;
     justify-content:flex-end;
     font-weight:700;
     font-size:1em;
@@ -344,7 +344,7 @@ div.menus__item__price{
 .menus__item__order{
     background-color: #99e2d0;
     color: #fff;
-    -webkit-box-align: center;
+    box-align: center;
     align-items: center; 
     position:absolute;
     display:flex;
@@ -354,8 +354,8 @@ div.menus__item__price{
     width: 20%;
     height: 100%;
     font-size: 20px;
-    -webkit-transform-origin: right;
-    -ms-transform-origin: right;
+    transform-origin: right;
+    transform-origin: right;
     transform-origin: right;
     overflow: hidden;
    
