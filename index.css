@@ -196,8 +196,7 @@ p{
 
 
 .function__step{
-    display: -webkit-box;
-    display: -ms-flexbox;
+    
     display: flex;
     margin:12px auto;
     padding: 1.8rem 0 1.3rem 0;
