@@ -632,7 +632,7 @@ li{
 }        
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .resume {
         width: auto;
         height: 100%;
@@ -649,6 +649,14 @@ li{
     h5{
         text-align:left;
         font-size: 2em;
+    }
+    div h2{
+        
+    }
+    .container_coeur{
+        position:absolute;
+        top:55%;
+        right: 5%;
     }
 
     li{

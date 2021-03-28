@@ -689,7 +689,7 @@ li{
     }
 
     .header h1{
-        margin-left:-12rem;
+        margin-left:-8rem;
  
     }
     .menu__main header.image {
@@ -716,6 +716,7 @@ li{
     footer li{
         margin-top:-.5rem;
         margin:-.5rem;
+        margin-left: -2rem;
     }  
 }
 
@@ -739,7 +740,7 @@ li{
 
     div h2 {
         margin-right: -.2rem;
-        margin-left:-1.8rem;
+        margin-left:-3.5rem;
     }
 
     /*-...placement du prix apres hover...-*/
@@ -789,6 +790,86 @@ li{
     }
 
 }
+
+@media screen and (max-width: 450px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
+    .info a.button{
+        margin-left:22%;
+    }
+    div.number{
+        margin-left:-8em;
+    }
+
+    h5{
+        text-align:left;
+        font-size: 2em;   
+    }
+
+    .container_coeur{
+        position:absolute;
+        top:55%;
+        right: 5%;
+    }
+
+    li{
+        font-size:1rem;
+    }
+    
+}
+
+@media screen and (min-width: 375px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+        
+    }
+    .header h1 {
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        font-size: 2.5rem;
+        margin-left:-2.5em;
+    }
+
+    .info a.button{
+        margin-left:22%;
+    }
+    div.number{
+        margin-left:-8em;
+    }
+
+    h5{
+        text-align:left;
+        font-size: 2em;
+    }
+    div h2{
+        font-size: 1.3em;
+        
+    }
+    .container_coeur{
+        position:absolute;
+        top:30%;
+        right:-5.2%;
+    }
+
+    li{
+        font-size:1rem;
+    
+    }
+    footer li {
+        margin-right: 1.2em;
+        font-size: .6em;
+    }
+    
+}
+
+
 
 @media screen and (max-width:300px){
     body {
