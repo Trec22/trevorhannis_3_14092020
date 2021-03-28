@@ -24,7 +24,7 @@ h1{
     transform: rotate(0deg) scale(1); transform: rotate(0deg) scale(1);
     }
     100%{
-    animation-delay: rotate(360deg) scale(1.15); transform: rotate(360deg) scale(1.15);
+    transform: rotate(360deg) scale(1.15); transform: rotate(360deg) scale(1.15);
     }
 }
 
@@ -61,8 +61,6 @@ h1{
     animation-name: disappear;
     animation-delay: 3.5s;
     animation-fill-mode: forwards;
-    box-pack: center;
-    box-align: center;
     z-index:4;
     
 }
@@ -204,7 +202,6 @@ p{
     margin:12px auto;
     padding: 1.8rem 0 1.3rem 0;
     background-color: #fff;
-    box-align: center;
     align-items: center;
     width:50%;
     border-radius: 1.5rem;
@@ -218,7 +215,7 @@ p{
 .function__step--number {
     color: #fff;
     background-color: #9356dc;
-    border: 1px solid #9356dc;
+    border: 1px solid #ac79eb;
     border-radius: 50%;
     padding: 4px 8px 4px 8px;
     margin: 0 1.5rem 0 -12px;
@@ -229,7 +226,7 @@ p{
     background-color: #e4d5f6;
     color: #000;
     box-shadow: 3px 3px 20px #c6bfbf;
-    box-shadow: 3px 3px 20px #c6bfbf;
+    box-shadow: 3px 3px 20px #c5b9b9;
 }
 
 
