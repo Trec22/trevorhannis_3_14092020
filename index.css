@@ -86,17 +86,15 @@ h1{
 }
 
 .loader_container .icon{
+    content: "";
     display:inline-block;
     color: rgb(243, 150, 150);
     width: 5rem;
     height: 5rem;
     font-size: 4em;
     justify-content: center;
-    position:relative;
-    left:1.05rem;
-    transform: rotate(-360deg);
-    animation:icon 2s infinite ease-in-out;
-      
+    position:absolute;
+    right:1rem;
 }
 
 @keyframes icon{
@@ -104,7 +102,6 @@ h1{
         transform: rotate(-360deg);
     }
     
-
 }
 
    /*-.....info.....-*/
@@ -607,11 +604,11 @@ li{
     li{
         font-size:1.2rem;
         margin-left:-8rem;
-        margin-bottom:.5em;
-        
+        margin-bottom:.5em;   
     }
 
 }
+
 
 @media screen and (max-width: 750px){
     .resume {
@@ -629,7 +626,39 @@ li{
         top:73%;
         right: 20%;
     }
-}        
+} 
+
+
+@media screen and (max-width: 500px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;   
+    }
+    
+    .container_coeur{
+        position:absolute;
+        top:75%;
+        right: 25%;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;    
+    }
+
+    .container_coeur{
+        position:absolute;
+        top:95%;
+        right: 3%;
+    }
+
+}
 
 
 @media screen and (max-width: 450px){
@@ -650,9 +679,7 @@ li{
         text-align:left;
         font-size: 2em;
     }
-    div h2{
-        
-    }
+
     .container_coeur{
         position:absolute;
         top:55%;
@@ -672,8 +699,8 @@ li{
         width: auto;
         height: 100%;
         word-wrap: break-word;
-        
     }
+
 }
 
 
@@ -681,20 +708,23 @@ li{
     .resume {
         width: auto;
         height:100%;
-        word-wrap: break-word;
-        
+        word-wrap: break-word;    
     }
+
     h1{
         font-size: 2.1rem;
     
     }
+
     .button{
         font-size: 12px;
     }
+
     section.info{
         width: 100%;
         margin:0;
     }
+
     .info a.button{
         margin-right:3.8rem;
     }
@@ -717,7 +747,6 @@ li{
     .function__step--icon{
         font-size: 1rem;
         margin-left:-.88em;
-
     }
     
     footer{
