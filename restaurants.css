@@ -359,8 +359,7 @@ div.menus__item__price{
 
 .menus__item:hover .menus__item__order{
     left: 80%;
-    transition:left 0.3s ease-in-out .3s;
-    
+    transition:left 0.3s ease-in-out .3s;   
 }
 
 
@@ -684,6 +683,7 @@ li{
 @media screen and (max-width:990px){
     body {
         width:100%;
+        height:100%;
         
         
     }
