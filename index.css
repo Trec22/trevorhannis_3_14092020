@@ -367,7 +367,7 @@ article.restaurants{
 
 .container_coeur{
     position:absolute;
-    top:85%;
+    top:82%;
     right:20%;
 }
 
@@ -623,7 +623,7 @@ li{
 @media screen and (max-width: 600px){
     .container_coeur{
         position:absolute;
-        top:73%;
+        top:78%;
         right: 20%;
     }
 } 
@@ -682,8 +682,8 @@ li{
 
     .container_coeur{
         position:absolute;
-        top:55%;
-        right: 5%;
+        top: 68%;
+        right: 20%;
     }
 
     li{
@@ -693,12 +693,26 @@ li{
     
 }
 
-
 @media screen and (max-width: 350px){
     .resume {
         width: auto;
         height: 100%;
         word-wrap: break-word;
+    }
+
+}
+
+
+@media screen and (min-width: 350px){
+    .resume {
+        width: auto;
+        height: 100%;
+        word-wrap: break-word;
+    }
+
+    .function__step{
+        display: flex;
+        width: 85%;
     }
 
 }
