@@ -206,6 +206,10 @@ section.menu{
     margin-bottom:20px;
 }
 
+h2.menus__title{
+    margin-right: 15rem;
+}
+
 .menu .menus{
     width: 45%;
     border-radius: 15px;
@@ -390,7 +394,7 @@ div.button__order{
 }
 
 footer{
-    width: 75%;
+   width: 75%;
     margin:0 auto;
     background:#535353;
     color: white;
@@ -868,7 +872,7 @@ li{
     }
     footer li {
         margin-right: 1.2em;
-        font-size: .6em;
+        font-size:1em;
     }
     
 }
