@@ -344,7 +344,7 @@ h4{
 }
 
 article.restaurants:hover{
-    transform:scale(1.1);
+    transform:scale(1.05);
 
 }
 
@@ -367,7 +367,7 @@ article.restaurants{
 
 .container_coeur{
     position:absolute;
-    top:82%;
+    bottom:65px;
     right:20%;
 }
 
