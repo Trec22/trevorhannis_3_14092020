@@ -491,6 +491,11 @@ li{
         margin-left: -16rem;
         margin-right:48rem;
     }
+
+    .fa-heart {
+        font-size: 35px;
+    }
+
     
 }
 
@@ -521,6 +526,7 @@ li{
         position:relative;
     }
 
+    
 }
 
 @media screen and (max-width:1500px){
@@ -534,7 +540,10 @@ li{
         width:100%;
     }
     div h2 {
-        margin-right: 30rem;
+        margin-right: 32em;
+    }
+    .fa-heart {
+        font-size: 25px;
     }
 
 }
@@ -569,12 +578,15 @@ li{
     }
 
     div h2 {
-        margin-right: 25rem;
+        margin-right: 30em;
     }
 
     .menu__main .menu{
         padding: 0 0px;
         margin-top:-5rem;
+    }
+    .fa-heart {
+        font-size: 30px;
     }
 
 }
@@ -640,7 +652,7 @@ li{
     }
 
     div h2{
-        right:-8rem;
+        right:-6rem;
     }
    
 }
@@ -674,8 +686,12 @@ li{
     }
 
     div h2{
-        margin-right:8rem;
-        margin-left: .3rem;
+        margin-right:16em;
+        margin-left: -8em;
+    }
+
+    .fa-heart {
+        font-size: 25px;
     }
 
     footer h2{
@@ -744,7 +760,7 @@ li{
     }
 
     div h2 {
-        margin-right: -.2rem;
+        margin-right:6em;
         margin-left:-3.5rem;
     }
 
@@ -758,7 +774,11 @@ li{
     h2{
         margin-left: -5.5rem;
     }
+    .fa-heart {
+        font-size: 24px;
+    }
 }
+
 
 @media screen and (max-width:680px){
     body {
@@ -769,7 +789,10 @@ li{
     h2.menus__title {
         margin-right: 3rem;
     }
-    
+    .fa-heart {
+        font-size: 24px;
+    }
+
 }
 
 
@@ -797,7 +820,7 @@ li{
     .container_coeur{
         position:absolute;
         top:10%;
-        right:-10%;
+        right:-15%;
     }
 
     li{
@@ -869,7 +892,7 @@ li{
         font-size: 2em;
     }
     div h2{
-        font-size: 1.3em;
+        font-size: 1.5em;
         
     }
     .container_coeur{
@@ -922,8 +945,11 @@ li{
         right:-.5%;
     
     }
+    .fa-heart {
+        font-size: 22px;
+    }
     div h2 {
-        margin-right: 1rem;
+        margin-right: 1.5em;
     }
 
     h2{
