@@ -18,6 +18,8 @@ h1{
 
     /*-.....loader.....-*/
 
+/*-.loader avec "keyframes" points de départ, d’arrivée dans l'animation visuelle..-*/
+
 
 @keyframes loader-spin {
     0%{

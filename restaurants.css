@@ -222,9 +222,12 @@ h2.menus__title{
     box-shadow:0 0 10px#99e2d0;
 }
 
-/*...apparition au défilement...*/
+  /*...apparition au défilement...*/
 
-/*...make it move...*/
+  /*...make it move...*/
+
+/*-.defilement avec "keyframes" points de départ, d’arrivée dans l'animation visuelle..-*/
+
 @keyframes defilement {
     0% {
         transform: translateY(-50%);
@@ -311,11 +314,13 @@ div.menus__item__price{
    
 }
 
+
+
 /*.....price....*/
 
 .menus__item:hover .menus__item__price{
     left: 70%;
-    transition:left 0.8s ease-in-out .8s;
+    transition:left 0.3s ease-in-out .3s;
     
 }
 
