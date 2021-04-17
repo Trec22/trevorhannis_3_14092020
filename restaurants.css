@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body{
+
     width:75%;
     height: 100%;
+    font-family:"roboto";
     word-wrap: break-word;
     text-align: center;
     margin:0 auto;
@@ -11,6 +13,14 @@ body{
 .header{
     width: 75%;
     margin: 0 auto;
+}
+
+h1{
+    font-family:"shrikhand",cursive;
+}
+
+h2.menus__title{
+    font-family: "roboto";
 }
 
 .menu__main{
@@ -657,7 +667,7 @@ li{
     }
 
     div h2{
-        right:-6rem;
+        right:-10rem;
     }
    
 }
