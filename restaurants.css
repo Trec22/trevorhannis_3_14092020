@@ -330,7 +330,7 @@ div.menus__item__price{
 
 .menus__item:hover .menus__item__price{
     left: 70%;
-    transition:left 0.3s ease-in-out .3s;
+    transition:left 0.2s ease-in-out .3s;
     
 }
 
