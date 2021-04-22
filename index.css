@@ -572,7 +572,8 @@ li{
         padding:2rem;
     }
     h5{
-        margin-bottom:.3em;
+        margin-bottom:.5em;
+        margin-top: -.5em;
     }
     li{
         font-size:1.2em;
