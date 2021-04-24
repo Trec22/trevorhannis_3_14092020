@@ -236,7 +236,7 @@ h2.menus__title{
 
   /*...make it move...*/
 
-/*-.defilement avec "keyframes" points de départ, d’arrivée dans l'animation visuelle..-*/
+/*-.defilement avec "keyframes" points de départ,et d’arrivée dans l'animation visuelle..-*/
 
 @keyframes defilement {
     0% {
@@ -629,7 +629,7 @@ li{
         margin-top:-15rem;
     }
     .menus__item__description__text p,.menus__item__description__text h3{
-        width: 80%;
+        width:100%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -734,6 +734,13 @@ li{
         background-position: center center;
     }
 
+    .menus__item__description__text p,.menus__item__description__text h3{
+    
+        width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     h2{
         margin-left:-8rem;
     }
@@ -831,7 +838,14 @@ li{
         height:420px;
         width:100%;
         
-    }    
+    } 
+    
+    article.menus__item__description__text{
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
     .container_coeur{
         position:absolute;
         top:10%;
@@ -952,6 +966,12 @@ li{
     
     .menu__main .menu {
         width: 100%;
+    }
+    .menus__item__description__text p,.menus__item__description__text h3{
+    
+        width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .container_coeur{
